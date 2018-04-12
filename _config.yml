@@ -1,0 +1,62 @@
+title: JBTechLab
+author:
+  en: Jerome Briot
+  fr: Jérôme Briot
+email: jbtechlab@gmail.com
+description:
+  en: Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+  fr: Écrivez une super description de votre nouveau site ici. Vous pouvez modifier cette ligne dans _config.yml. Elle apparaîtra dans la balise meta description (pour les résultats sur Google) et dans le fil RSS feed.xml.
+index:
+  en: index.md
+  fr: accueil.md
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://jeromebriot.github.io/" # the base hostname & protocol for your site
+
+# social links
+github_username:  JeromeBriot
+# rss: rss
+# twitter_username: jekyllrb
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jekyll
+# linkedin_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: jekyll
+# googleplus_username: +jekyll
+
+# Mastodon instances
+# mastodon:
+# - username: jekyll
+#   instance: example.com
+# - username: jekyll2
+#   instance: example.com
+
+
+show_excerpts: false # set to true to show excerpts on the homepage
+
+# Minima date format
+# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+minima:
+  date_format: "%b %d, %Y"
+
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+header_pages:
+ - index.md
+ - accueil.md
+ - projets.md
+ - projects.md
+ - about.md
+ - a-propos.md
+
+
+# Build settings
+markdown: kramdown
+theme: minima
+exclude:
+ - Gemfile
+ - Gemfile.lock
+
+  

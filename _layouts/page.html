@@ -1,0 +1,26 @@
+---
+layout: default
+---
+<article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title" style="display: inline-block;">{{ page.title | escape }}</h1>
+	  {% if page.lang == "en" %}
+		{% assign pages=site.pages | where:"ref", page.ref | where:"lang", "fr" %}
+		{% if pages.size > 0 %}
+		  {% assign str="French version (français)" %}
+		{% endif %}	
+	  {% else %}
+		{% assign pages=site.pages | where:"ref", page.ref | where:"lang", "en" %}
+		{% if pages.size > 0 %}
+		  {% assign str="Version anglaise (english)" %}
+		{% endif %}	
+	  {% endif %}
+  <a href="{{ pages[0].url | prepend: site.baseurl }}" class="{{ page.lang }}" style="float: right;">{{str}}</a>
+  </header>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+</article>
