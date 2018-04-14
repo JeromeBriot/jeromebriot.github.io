@@ -8,7 +8,7 @@ ref: index
 level: 0
 ---
 
-[Travaux](/fr/jbtechlab/works)
+[Travaux](/fr/works)
 
 <!---
 Je suis ingénieur R&D indépendant, avec plus de 15 d'expérience.

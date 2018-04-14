@@ -2,7 +2,7 @@
 layout: page
 title: Travaux
 nav_title: Travaux
-permalink: /fr/jbtechlab/works/
+permalink: /fr/works/
 ref: works
 lang: fr
 level: 1

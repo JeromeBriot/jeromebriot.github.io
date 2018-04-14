@@ -7,7 +7,7 @@ ref: index
 level: 0
 ---
 
-[Works](/jbtechlab/works)
+[Works](/works)
 
 <!---I'm a freelance R&D engineer with more than 15 years of experience.
 
