@@ -112,7 +112,8 @@ a {
 
   &:hover {
     color: $text-color;
-    text-decoration: underline;
+    /*text-decoration: underline;*/
+	text-decoration: underline dotted;
   }
 
   .social-media-list &:hover {

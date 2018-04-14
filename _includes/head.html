@@ -3,11 +3,22 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>{% if page.title %}{{ page.title | prepend: " - " | prepend: site.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+  <title>
+  {% if page.ref == "index" %}
+    {% if page.lang == "en" %}
+	Jerome Briot - Freelance R&amp;D engineer
+	{% else %}
+	J&eacute;r&ocirc;me Briot - Ing&eacute;nieur R&amp;D ind&eacute;pendant
+	{% endif %}
+  {% else %}
+    {% if page.title %}{{ page.title | prepend: " - " | prepend: site.title | escape }}{% else %}{{ site.title | escape }}{% endif %}
+  {% endif %}
+  </title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description[page.lang] }}{% endif %}">
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
   <link rel="shortcut icon" type="image/x-icon" href="{{ "/favicon.ico" | prepend: site.url }}" >
   <link rel="icon" href="{{ "/favicon.ico" | prepend: site.url }}" type="image/x-icon" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}{% for post in posts %}
   <link rel="alternate" hreflang="{{ post.lang }}" href="{{ post.url }}" />{% endfor %}
