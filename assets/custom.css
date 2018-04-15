@@ -1,0 +1,63 @@
+/* Site header */
+.site-header { border-top: 0px solid #424242; border-bottom: 1px solid #e8e8e8; min-height: 55.95px; position: relative; }
+
+/* How to create an awesome navigation bar with HTML & CSS by Kevin Powell */
+/*	https://www.youtube.com/watch?v=FEmysQARWFU */
+/*	https://codepen.io/kevinpowell/pen/GrLKNo */
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+  padding: 10px 0;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 25px;
+  padding-top: 17px;
+
+  position: relative;
+}
+
+nav a {
+  color: #444;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+nav a:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #444;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
