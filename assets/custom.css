@@ -1,6 +1,9 @@
 /* Site header */
 .site-header { border-top: 0px solid #424242; border-bottom: 1px solid #e8e8e8; min-height: 55.95px; position: relative; }
 
+.site-title { float: right; }
+.site-nav { float: left; }
+
 /* How to create an awesome navigation bar with HTML & CSS by Kevin Powell */
 /*	https://www.youtube.com/watch?v=FEmysQARWFU */
 /*	https://codepen.io/kevinpowell/pen/GrLKNo */
@@ -17,7 +20,7 @@ header::after {
 }
 
 nav {
-  float: right;
+  float: left;
 }
 
 nav ul {
