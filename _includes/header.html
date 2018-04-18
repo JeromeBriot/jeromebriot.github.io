@@ -24,10 +24,10 @@
     {% endfor %}
 	</nav>
 	
-		{% if page.lang == "en" %}
+	{% if page.lang == "en" %}
 		<a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.author.en | escape }} - {{ site.job.en | escape }}</a>
 	{% else %}
-		<a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.author.fr | escape }} - {{ site.job.fr | escape }}</a>
+		<a class="site-title" rel="author" href="{{ "/fr/" | relative_url }}">{{ site.author.fr | escape }} - {{ site.job.fr | escape }}</a>
 	{% endif %}
 	
     <!-- {% if page_paths %} -->

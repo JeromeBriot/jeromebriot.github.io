@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Blog
+title: Demande à la poussière
 nav_title: Blog
 permalink: /fr/blog/
 ref: blog
 lang: fr
-level: 1
+level: 0
 ---

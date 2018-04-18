@@ -7,8 +7,8 @@ author:
   fr: Jérôme Briot
 email: me@example.com
 description:
-  en: Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
-  fr: Écrivez une super description de votre nouveau site ici. Vous pouvez modifier cette ligne dans _config.yml. Elle apparaîtra dans la balise meta description (pour les résultats sur Google) et dans le fil RSS feed.xml.
+  en: Freelance R&D engineer specializing in 3D mechanical design, 3D printing, computer and microcontroller programming.
+  fr: Ingénieur R&D indépendant spécialisé en conception mécanique 3D, impression 3D, programmation informatique et microcontrôleur.
 index:
   en: index.md
   fr: accueil.md
@@ -16,6 +16,9 @@ index:
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://jeromebriot.github.io/" # the base hostname & protocol for your site
 
+plugins:
+  - jekyll-sitemap
+  
 # social links
 github_username: JeromeBriot
 linkedin_username: jeromebriot
@@ -26,7 +29,6 @@ linkedin_username: jeromebriot
 # facebook_username: jekyll
 # flickr_username: jekyll
 # instagram_username: jekyll
-# linkedin_username: jekyll
 # pinterest_username: jekyll
 # youtube_username: jekyll
 # googleplus_username: +jekyll
@@ -38,6 +40,8 @@ linkedin_username: jeromebriot
 # - username: jekyll2
 #   instance: example.com
 
+# Google Analytics
+#google_analytics: UA-117615064-1
 
 show_excerpts: false # set to true to show excerpts on the homepage
 
@@ -51,21 +55,19 @@ minima:
 header_pages_0:
  - index.md
  - accueil.md
- - portfolio.md
- - portfolio_fr.md
- - cv.md
- - resume.md
- - contact.md
- - contact_fr.md
+ - blog.md
+ - blog_fr.md
+ - projects.md
+ - projets.md
+
 
 header_pages_1:
  - blog.md
  - blog_fr.md
  - works.md
  - travaux.md
- - projects.md
- - projets.md
-
+ - portfolio.md
+ - portfolio_fr.md
  
 # Build settings
 markdown: kramdown

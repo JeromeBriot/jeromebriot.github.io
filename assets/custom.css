@@ -1,7 +1,7 @@
 /* Site header */
 .site-header { border-top: 0px solid #424242; border-bottom: 1px solid #e8e8e8; min-height: 55.95px; position: relative; }
 
-.site-title { float: right; }
+.site-title { float: right; font-size: 18px; text-align: right;}
 .site-nav { float: left; }
 
 /* How to create an awesome navigation bar with HTML & CSS by Kevin Powell */
@@ -52,7 +52,8 @@ nav a::before {
   content: '';
   display: block;
   height: 5px;
-  background-color: #444;
+  /*background-color: #444;*/
+  background-color: #E8AD23;
 
   position: absolute;
   top: 0;

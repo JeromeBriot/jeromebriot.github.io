@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Blog
+title: Ask the dust
 nav_title: Blog
 permalink: /blog/
 ref: blog
 lang: en
-level: 1
+level: 0
 ---
