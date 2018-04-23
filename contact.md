@@ -13,7 +13,7 @@ lang: en
 	<input type="text" name="name" placeholder="Name">
     <input type="text" name="email" placeholder="Email Address">
     <textarea type="text" name="content" rows="10" placeholder="Message"></textarea>
-    <input type="hidden" name="_next" value="//{{ site.url }}/thanks/">
+    <input type="hidden" name="_next" value="//{{ site.url }}thanks/">
     <input type="hidden" name="_subject" value="New Contact Form Submission">
     <input type="text" name="_gotcha" style="display:none">
     <input type="submit" value="Submit">
