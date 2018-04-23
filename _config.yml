@@ -41,7 +41,7 @@ linkedin_username: jeromebriot
 #   instance: example.com
 
 # Google
-google_analytics: UA-117615064-1
+# google_analytics: UA-117615064-1
 google-site-verification: 8eb-4roeGbgDgY82G04s_nFpm4hDu83Pk4UiorL8A-g
 
 show_excerpts: false # set to true to show excerpts on the homepage
