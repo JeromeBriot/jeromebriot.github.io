@@ -1,16 +1,16 @@
 ---
 layout: page
-title: Contact
+title: Contact me
 permalink: /contact/
 nav_title: Contact
 ref: contact
 lang: en
-level: 0
 ---
 
 <!--- https://gist.github.com/sharu725/b8bc09d8a6bb57c637df0b5ae958c155 --->
 
 <form class="wj-contact" action="https://formspree.io/{{site.email}}" method="POST">
+	<input type="text" name="name" placeholder="Name">
     <input type="text" name="email" placeholder="Email Address">
     <textarea type="text" name="content" rows="10" placeholder="Message"></textarea>
     <input type="hidden" name="_next" value="//{{ site.url }}/thanks/">

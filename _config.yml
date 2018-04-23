@@ -40,8 +40,9 @@ linkedin_username: jeromebriot
 # - username: jekyll2
 #   instance: example.com
 
-# Google Analytics
-#google_analytics: UA-117615064-1
+# Google
+google_analytics: UA-117615064-1
+google-site-verification: 8eb-4roeGbgDgY82G04s_nFpm4hDu83Pk4UiorL8A-g
 
 show_excerpts: false # set to true to show excerpts on the homepage
 
@@ -52,22 +53,13 @@ minima:
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
-header_pages_0:
+header_pages:
  - index.md
  - accueil.md
- - blog.md
- - blog_fr.md
  - projects.md
  - projets.md
-
-
-header_pages_1:
- - blog.md
- - blog_fr.md
- - works.md
- - travaux.md
- - portfolio.md
- - portfolio_fr.md
+ - contact.md
+ - contact_fr.md
  
 # Build settings
 markdown: kramdown

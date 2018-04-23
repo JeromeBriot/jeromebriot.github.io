@@ -1,14 +1,14 @@
 ---
 layout: page
-title: Contact
+title: Contactez-moi
 permalink: /fr/contact/
 nav_title: Contact
 ref: contact
 lang: fr
-level: 0
 ---
 
 <form class="wj-contact" action="https://formspree.io/{{site.email}}" method="POST">
+	<input type="text" name="name" placeholder="Nom">
 	<input type="text" name="email" placeholder="Adresse email">
     <textarea type="text" name="content" rows="10" placeholder="Message"></textarea>
     <input type="hidden" name="_next" value="//{{ site.url }}/fr/merci/">

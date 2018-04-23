@@ -2,7 +2,9 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="google-site-verification" content="8eb-4roeGbgDgY82G04s_nFpm4hDu83Pk4UiorL8A-g" />
+  {% if site.google-site-verification %}
+  <meta name="google-site-verification" content="{{ site.google-site-verification }}" />
+  {% endif %}
   
   <title>
   {% if page.ref == "index" %}

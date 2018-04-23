@@ -1,10 +1,11 @@
 ---
 layout: page
 title: Merci !
-permalink: /merci/
+permalink: /fr/merci/
 ref: thanks
 lang: fr
-level: 0
 ---
 
 Merci de m'avoir contacté.
+
+J'ai reçu votre demande par email et vous contacterai sous peu.

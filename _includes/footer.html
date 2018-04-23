@@ -2,34 +2,33 @@
   <data class="u-url" href="{{ "/" | relative_url }}"></data>
 
   <div class="wrapper">
-
-	<!-- <h2 class="footer-heading">{{ site.title | escape }}</h2> -->
-
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li class="p-name">
-            {% if site.author %}
-              {{ site.author[page.lang] | escape }}
-            {% else %}
-              {{ site.title[page.lang] | escape }}
-            {% endif %}
-            </li>
-            {% if site.email %}
-            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {% endif %}
-        </ul>
+	  <img src="{{"/assets/images/logo-48x48.png" | prepend: site.url }}" alt=""/>
       </div>
 
       <div class="footer-col footer-col-2">
-        {% include social.html %}
+		<p>{{ site.description[page.lang] | escape }}</p>
       </div>
 
       <div class="footer-col footer-col-3">
-        <p>{{ site.description[page.lang] | escape }}</p>
+		{% include social.html %}
       </div>
     </div>
 
+  </div>
+  <div class="wrapper" style="border-top: 1px solid #e8e8e8; text-align: center;">
+	{% if page.lang == "en" %}
+	<small>
+      Made with <a href="http://jekyllrb.com/">Jekyll</a>,
+      hosted on <a href="https://github.com/JeromeBriot/jeromebriot.github.io">Github Pages</a>.
+    </small>
+	{% else %}
+	<small>
+      Conçu avec <a href="http://jekyllrb.com/">Jekyll</a>,
+      hébergé sur <a href="https://github.com/JeromeBriot/jeromebriot.github.io">Github Pages</a>.
+    </small>
+	{% endif %}
   </div>
 
 </footer>
