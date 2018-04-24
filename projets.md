@@ -41,7 +41,7 @@ J'ai développé de nombreuses extensions disponibles sur le [File Exchange](htt
 
 biomechLAB est un outil de recherche que j'ai entièrement développé au Laboratoire de Biomécanique de Toulouse. C'est une plateforme logicielle dédié à l'étude des structures osseuses et articulaires. Elle est principalement utilisée par des chirurgiens orthopédistes.
 
-![useful image]({{ site.url }}/assets/images/biomechlab.png)
+![biomechLAB]({{ "/assets/images/biomechlab.png" | relative_url }})
 
 L'outil permet&nbsp;:
 * de lire des images au standard DICOM

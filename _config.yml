@@ -14,7 +14,7 @@ index:
   fr: accueil.md
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://jeromebriot.github.io/" # the base hostname & protocol for your site
+url: "https://jeromebriot.github.io" # the base hostname & protocol for your site
 
 plugins:
   - jekyll-sitemap

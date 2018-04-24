@@ -8,14 +8,14 @@ ref: index
 level: 0
 ---
 
-I am [Jerome Briot](/) and I can accompany you in the realization of your **scientific or industrial projects**. Are you a member of a **research laboratory** or a **business** and need a **specific skill**? You are an individual who needs to **realize an idea**? [Contact me](/contact/) and let me share my main skills:
+I am [Jerome Briot]({{ "/" | relative_url }}) and I can accompany you in the realization of your **scientific or industrial projects**. Are you a member of a **research laboratory** or a **business** and need a **specific skill**? You are an individual who needs to **realize an idea**? [Contact me]({{ "/contact/" | relative_url }}) and let me share my main skills:
 
 * computer programming (MATLAB, Python, C)
 * 3D mechanical design (Fusion 360)
 * 3D printing (Ultimaker)
 * microcontroller programming (Microchip PIC and Arduino)
 
-<!---Check my [resume](/resume/) if you want to know more about my career.--->
+<!---Check my [resume]({{ "/resume/" | relative_url }}) if you want to know more about my career.--->
 
 <div style="width: 40%;margin-left: auto;margin-right: auto; padding-bottom: 15px"><hr style="border:0; border:1px solid #E8AD23;"></div>
 

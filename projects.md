@@ -40,7 +40,7 @@ MATLAB&reg; is a programming language ans an integrated development environment 
 
 biomechLAB is a tool for research studies that I wrote in the Biomechanics Laboratory in Toulouse, France. Its a software dedicated to the study of articular and bone structures that is mainly used by orthopedic surgeons.
 
-![useful image]({{ site.url }}/assets/images/biomechlab.png)
+![biomechLAB]({{ "/assets/images/biomechlab.png" | relative_url }})
 
 The tool allows:
 * to read DICOM images
