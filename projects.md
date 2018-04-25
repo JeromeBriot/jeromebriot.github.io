@@ -9,7 +9,7 @@ lang: en
 
 ## Add-ins for Fusion 360
 
-[Autodesk&reg; Fusion 360&trade;](https://www.autodesk.com/products/fusion-360/overview) is a cloud-based 3D CAD/CAM/CAE software for product design. I wrote codes in Python to extend its functionnalities. [More informations…]({{ "/projects/fusion360" | relative_url }})
+Fusion 360&trade; is a cloud-based 3D CAD/CAM/CAE software for product design. I wrote codes in Python to extend its functionnalities. [More informations…]({{ "/projects/fusion360" | relative_url }})
 
 Keywords: Fusion 360, API, Python.
 

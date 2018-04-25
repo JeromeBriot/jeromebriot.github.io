@@ -12,7 +12,8 @@ lang: fr
 	<input type="text" name="email" placeholder="Adresse email">
     <textarea type="text" name="content" rows="10" placeholder="Message"></textarea>
     <input type="hidden" name="_next" value="//{{ site.url | remove: "https://"}}fr/merci/">
-    <input type="hidden" name="_subject" value="New Contact Form Submission">
+    <input type="hidden" name="_subject" value="Nouvelle soumission de formulaire de contact">
+	<input type="hidden" name="_language" value="fr" />
     <input type="text" name="_gotcha" style="display:none">
     <input type="submit" value="Envoyer">
 </form>

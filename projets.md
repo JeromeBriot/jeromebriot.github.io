@@ -9,7 +9,7 @@ lang: fr
 
 ## Extensions pour Fusion 360
 
-[Autodesk&reg; Fusion 360&trade;](https://www.autodesk.com/products/fusion-360/overview){:target="_blank"} est un logiciel de CAO/FAO/IAO 3D basé sur le cloud pour la conception de produits. J'ai écris plusieurs codes en Python pour étendre ses fonctionnalités. [En savoir plus…]({{ "/fr/projets/fusion360" | relative_url }})
+Fusion 360&trade; est un logiciel de CAO/FAO/IAO 3D basé sur le cloud pour la conception de produits. J'ai écris plusieurs codes en Python pour étendre ses fonctionnalités. [En savoir plus…]({{ "/fr/projets/fusion360" | relative_url }})
 
 Mots-clés&nbsp;: Fusion 360, API, Python.
 
@@ -33,6 +33,6 @@ Mots-clés&nbsp;: microcontrolleur, MPLAB X, C, MATLAB, Python, impression 3D, C
 
 ## biomechLAB
 
-biomechLAB est une plateforme logicielle dédié à l'étude des structures osseuses et articulaires à partie d'images médicales. [En savoir plus…]({{ "/fr/projets/biomechlab" | relative_url }})
+biomechLAB est une plateforme logicielle dédiée à l'étude des structures osseuses et articulaires à partie d'images médicales. [En savoir plus…]({{ "/fr/projets/biomechlab" | relative_url }})
 
 Mots-clés&nbsp;: imagerie médicale, DICOM, segmentation, structure 3D, MATLAB.

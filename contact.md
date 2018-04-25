@@ -15,6 +15,7 @@ lang: en
     <textarea type="text" name="content" rows="10" placeholder="Message"></textarea>
     <input type="hidden" name="_next" value="//{{ site.url | remove: "https://"}}thanks/">
     <input type="hidden" name="_subject" value="New Contact Form Submission">
+	<input type="hidden" name="_language" value="en" />
     <input type="text" name="_gotcha" style="display:none">
     <input type="submit" value="Submit">
 </form>
