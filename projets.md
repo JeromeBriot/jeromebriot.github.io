@@ -7,7 +7,7 @@ ref: projects
 lang: fr
 ---
 
-## Extensions pour Fusion 360
+## Ressources Fusion 360
 
 Fusion 360&trade; est un logiciel de CAO/FAO/IAO 3D basé sur le cloud pour la conception de produits. J'ai écris plusieurs codes en Python pour étendre ses fonctionnalités. [En savoir plus…]({{ "/fr/projets/fusion360" | relative_url }})
 
@@ -15,7 +15,7 @@ Mots-clés&nbsp;: Fusion 360, API, Python.
 
 <div style="width: 40%;margin-left: auto;margin-right: auto; padding-bottom: 5px"><hr style="border:0; border:1px solid #E8AD23;"></div>
 
-## Extensions pour MATLAB
+## Ressources MATLAB
 
 MATLAB&reg; est un langage de programmation et un environnement de développement. Je programme quotidiennement avec MATLAB depuis 2000. [En savoir plus…]({{ "/fr/projets/matlab" | relative_url }})
 

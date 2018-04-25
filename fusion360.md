@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Add-ins for Fusion 360
+title: Fusion 360 resources
 permalink: /projects/fusion360/
 ref: fusion360
 lang: en

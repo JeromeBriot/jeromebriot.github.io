@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Extensions pour Fusion 360
+title: Ressources pour Fusion 360
 permalink: /fr/projets/fusion360/
 ref: fusion360
 lang: fr

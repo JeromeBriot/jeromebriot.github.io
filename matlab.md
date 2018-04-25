@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Add-ins for MATLAB
+title: MATLAB resources
 permalink: /projects/matlab/
 ref: matlab
 lang: en

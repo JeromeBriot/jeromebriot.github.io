@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Extensions pour MATLAB
+title: Ressources pour MATLAB
 permalink: /fr/projets/matlab/
 ref: matlab
 lang: fr

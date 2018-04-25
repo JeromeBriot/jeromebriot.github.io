@@ -7,7 +7,7 @@ ref: projects
 lang: en
 ---
 
-## Add-ins for Fusion 360
+## Fusion 360 resources
 
 Fusion 360&trade; is a cloud-based 3D CAD/CAM/CAE software for product design. I wrote codes in Python to extend its functionnalities. [More informations…]({{ "/projects/fusion360" | relative_url }})
 
@@ -15,7 +15,7 @@ Keywords: Fusion 360, API, Python.
 
 <div style="width: 40%;margin-left: auto;margin-right: auto; padding-bottom: 5px"><hr style="border:0; border:1px solid #E8AD23;"></div>
 
-## Add-ins for MATLAB
+## MATLAB resources
 
 MATLAB&reg; is a programming language ans an integrated development environment (IDE). I'm a daily user since 2000. [More informations…]({{ "/projects/matlab" | relative_url }})
 

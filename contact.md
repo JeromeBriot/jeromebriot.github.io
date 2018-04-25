@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Contact me
+title: How can I help you?
 permalink: /contact/
 nav_title: Contact
 ref: contact
