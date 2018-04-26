@@ -1,7 +1,7 @@
 ---
 layout: page
 lang: fr
-title: Besoin d'un ingénieur polyvalent ?
+title: Besoin d'un ingénieur R&D polyvalent ?
 permalink: /fr/
 nav_title: À propos
 ref: index

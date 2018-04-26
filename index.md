@@ -1,7 +1,7 @@
 ---
 layout: page
 lang: en
-title: Looking for a multi-skilled engineer?
+title: Looking for a multi-skilled R&D engineer?
 permalink: /
 nav_title: About
 ref: index
