@@ -1,7 +1,7 @@
 ---
 layout: page
 lang: fr
-title: Accueil
+title: Besoin d'un ingénieur polyvalent ?
 permalink: /fr/
 nav_title: À propos
 ref: index
@@ -13,16 +13,5 @@ Je suis [Jérôme Briot]({{ "/fr/" | relative_url }}) et je peux vous accompagne
 * impression 3D (Ultimaker)
 * programmation de microcontroleurs (Microchip PIC et Arduino) 
 
-<!---Consultez mon [CV]({{ "/fr/cv/" | relative_url }}) si vous voulez en savoir plus sur mon parcours.--->
-
-<div style="width: 40%;margin-left: auto;margin-right: auto; padding-bottom: 15px"><hr style="border:0; border:1px solid #E8AD23;"></div>
-
-J'ai travaillé pendant 15 ans dans la recherche médicale où j'ai réalisé des **projets innovants** avec des professionnels de **différents domaines**&nbsp;: chercheurs, industriels, chirurgiens, vétérinaires, biologistes… J'ai également eu la chance de **rencontrer** et d'**échanger** avec des personnes des quatre coins du monde&nbsp;: Japon, Liban, Algérie, Tunisie, États-Unis, Canada, Syrie, Chine, Colombie, Chili… et quelques français aussi&nbsp;!
-
-Indépendant depuis 2015, je partage mon activité entre des projets personnels et des collaborations avec des centres de recherche en France.
-
-Depuis 2006, je suis **bénévole** sur le site d'**entraide** Developpez.com que j'ai rejoint pour créer la communauté francophone des utilisateurs de **MATLAB**. J'étais auparavant un membre actif du forum anglophone MATLAB sur le site de MathWorks. J'apporte également maintenant mon aide dans le forum **Fusion 360 API and Scripts** sur le site de Autodesk.
-
-
-
+Consultez mon [CV]({{ "/fr/cv/" | relative_url }}) si vous voulez en savoir plus sur mon parcours.
 

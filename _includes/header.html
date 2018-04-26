@@ -2,8 +2,36 @@
 
   <div class="wrapper">    
 
-    {% assign page_paths = site.header_pages %}
+	<img src="{{"/assets/images/jerome-briot.jpg" | relative_url }}" alt="jerome-briot-logo" style="float:left; border-radius: 50%; max-width: 50px; padding-top: 3px; margin-right: 10px;"/>
+  
+  	{% if page.lang == "en" %}
+		<a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.author.en | escape }} - {{ site.job.en | escape }}</a>
+	{% else %}
+		<a class="site-title" rel="author" href="{{ "/fr/" | relative_url }}">{{ site.author.fr | escape }} - {{ site.job.fr | escape }}</a>
+	{% endif %}
+
+	{% if page.lang == "en" %}
+		{% assign pages=site.pages | where:"ref", page.ref | where:"lang", "fr" %}
+		{% if pages.size > 0 %}
+		 <p class="site-title" style="float:left; margin-left: 10%; text-align: left; color:#ccc;">En&nbsp;|&nbsp;</p><a href="{{ pages[0].url | prepend: site.baseurl }}" class="site-title" title="Parlez-vous français ?" style="color: #E8AD23">Fr</a>
+		 {% else %}
+		 <p class="site-title" style="float:left; margin-left: 10%; text-align: left; color:#ccc;">En&nbsp;|&nbsp;Fr</p>
+		{% endif %}	
+	{% else %}
+		{% assign pages=site.pages | where:"ref", page.ref | where:"lang", "en" %}
+		{% if pages.size > 0 %}
+		 <a href="{{ pages[0].url | prepend: site.baseurl }}" class="site-title" title="Do you speak English?" style="float:left; margin-left: 10%;color: #E8AD23">En</a><p class="site-title" style="text-align: left; color:#ccc;">&nbsp;|&nbsp;Fr</p>
+		 {% else %}
+		 <p class="site-title" style="float:left; margin-left: 10%; text-align: left; color:#ccc;">En&nbsp;|&nbsp;Fr</p>
+		{% endif %}		
+	{% endif %}
+  
+  
+  
 	
+
+	
+    {% assign page_paths = site.header_pages %}
 	<nav>
 	<ul>
 	{% for path in page_paths %}
@@ -19,11 +47,7 @@
 	</ul>
 	</nav>
 	
-	{% if page.lang == "en" %}
-		<a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.author.en | escape }} - {{ site.job.en | escape }}</a>
-	{% else %}
-		<a class="site-title" rel="author" href="{{ "/fr/" | relative_url }}">{{ site.author.fr | escape }} - {{ site.job.fr | escape }}</a>
-	{% endif %}
+
 	
   </div>
 </header>

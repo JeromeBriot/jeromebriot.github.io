@@ -6,26 +6,14 @@ layout: default
   <header class="post-header">
   {% if page.ref == "index" %}
     {% if page.lang == "en" %}
-	  <h1 class="post-title" style="display: inline-block;">Hello,</h1>
+	  <h1 class="post-title" style="width: 66%; margin-left: auto; margin-right:auto; text-align: center;">{{ page.title | escape }}</h1>
 	{% else %}
-	  <h1 class="post-title" style="display: inline-block;">Bonjour,</h1>
+	  <h1 class="post-title" style="width: 66%; margin-left: auto; margin-right:auto; text-align: center;">{{ page.title | escape }}</h1>
 	{% endif %}	
   {% else %}
     <h1 class="post-title" style="display: inline-block;">{{ page.title | escape }}</h1>
   {% endif %}  
-    <!-- <h1 class="post-title" style="display: inline-block;">{{ page.title | escape }}</h1> -->
-	  {% if page.lang == "en" %}
-		{% assign pages=site.pages | where:"ref", page.ref | where:"lang", "fr" %}
-		{% if pages.size > 0 %}
-		  {% assign str="Parlez-vous français ?" %}
-		{% endif %}	
-	  {% else %}
-		{% assign pages=site.pages | where:"ref", page.ref | where:"lang", "en" %}
-		{% if pages.size > 0 %}
-		  {% assign str="Do you speak english?" %}
-		{% endif %}	
-	  {% endif %}
-  <a href="{{ pages[0].url | prepend: site.baseurl }}" class="{{ page.lang }}" style="float: right; margin-right: 20px; color: #E8AD23">{{str}}</a>
+
   </header>
 
   <div class="post-content">
