@@ -11,3 +11,5 @@ lang: en
 I developped the following extensions:
 * [IDF file import](https://apps.autodesk.com/FUSION/fr/Detail/Index?id=3201819144576582682&appLang=en&os=Win64){:target="_blank"}
 * [GitHub2Fusion360](https://apps.autodesk.com/FUSION/fr/Detail/Index?id=789800822168335025&appLang=en&os=Win64){:target="_blank"}
+
+Keywords: Fusion 360, API, Python.

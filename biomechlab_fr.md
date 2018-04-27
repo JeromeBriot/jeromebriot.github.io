@@ -22,6 +22,6 @@ biomechLAB est codé en MATLAB&reg;, sans aucune toolbox externe.
 
 biomechLAB est utilisé à l'Hôpital des Enfants de Toulouse pour une étude sur le long terme d'enfant scoliotique. Quelques articles scientifiques publiés&nbsp;: [doi&nbsp;: 10.1016/j.mri.2006.09.007](https://doi.org/10.1016/j.mri.2006.09.007){:target="_blank"}, [10.1097/BRS.0b013e318074d69f](https://doi.org/10.1097/BRS.0b013e318074d69f){:target="_blank"}, [10.1016/j.clinbiomech.2008.09.002](https://doi.org/10.1016/j.clinbiomech.2008.09.002){:target="_blank"}, [10.1007/s00586-015-3875-4](https://link.springer.com/article/10.1007%2Fs00586-015-3875-4){:target="_blank"}.
 
-
+Mots-clés&nbsp;: imagerie médicale, DICOM, segmentation, structure 3D, MATLAB.
 
 

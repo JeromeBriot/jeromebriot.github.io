@@ -13,3 +13,5 @@ The Openfeeder is a device used to study global warming effects and mountain cli
 For this project, I developped the C code embedded in the electronical board and I designed pieces that were made with 3D printers.
 
 More information on the [website](https://openfeeder.github.io/){:target="_blank"} (fr) of the project.
+
+Keywords: microcontroller, MPLAB X, C, MATLAB, Python, 3D printing, CAD, Fusion 360.

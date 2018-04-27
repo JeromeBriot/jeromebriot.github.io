@@ -13,3 +13,5 @@ L'Openfeeder est un système utilisé pour étudier l’effet du réchauffement 
 Dans le cadre de ce projet, j'ai développé le code C embarqué sur la carte éléctronique. J'ai conçu des pièces mécaniques qui ont été fabriquées par impression 3D.
 
 Plus d'informations sur le [site internet](https://openfeeder.github.io/){:target="_blank"} du projet
+
+Mots-clés&nbsp;: microcontrolleur, MPLAB X, C, MATLAB, Python, impression 3D, CAO, Fusion 360.

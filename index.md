@@ -8,12 +8,8 @@ ref: index
 level: 0
 ---
 
-I am [Jerome Briot]({{ "/" | relative_url }}) and I can accompany you in the realization of your **scientific or industrial projects**. Are you a member of a **research laboratory** or a **business** and need a **specific skill**? You are an individual who needs to **realize an idea**? [Contact me]({{ "/contact/" | relative_url }}) and let me share my main skills:
-
-* computer programming (MATLAB, Python, C)
-* 3D mechanical design (Fusion 360)
-* 3D printing (Ultimaker)
-* microcontroller programming (Microchip PIC and Arduino)
+I am [Jerome Briot]({{ "/" | relative_url }}) and I can help you to realize your scientific or industrial project. You have strong expertise in your field and you know exactly what you want. Do you lack technical resources? Are you limited by existing tools? Do you have difficulty defining the steps to realize your idea? Thanks to my skills and my network, we will lead your project together to success.
 
 Check my [resume]({{ "/resume/" | relative_url }}) if you want to know more about my career.
 
+My tools: Fusion 360, Python, MATLAB, C, Ultimaker 2+, Microchip PIC, Arduino.
