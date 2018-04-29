@@ -58,6 +58,8 @@ header_pages:
  - accueil.md
  - projects.md
  - projets.md
+ - services.md
+ - services_fr.md
  - contact.md
  - contact_fr.md
  
