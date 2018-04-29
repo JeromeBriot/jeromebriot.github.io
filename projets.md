@@ -31,7 +31,7 @@ L'Hexaboard est une carte électronique conçue pour accéder à des capteurs di
 
 <div style="width: 40%;margin-left: auto;margin-right: auto; padding-bottom: 5px"><hr style="border:0; border:1px solid #E8AD23;"></div>
 
-## Ressources Fusion 360
+## Ressources pour Fusion 360
 
 Mon rôle&nbsp;: développement logiciel.
 
@@ -39,7 +39,7 @@ Fusion 360&trade; est un logiciel de CAO/FAO/IAO 3D basé sur le cloud pour la c
 
 <div style="width: 40%;margin-left: auto;margin-right: auto; padding-bottom: 5px"><hr style="border:0; border:1px solid #E8AD23;"></div>
 
-## Ressources MATLAB
+## Ressources pour MATLAB
 
 Mon rôle&nbsp;: développement logiciel.
 
