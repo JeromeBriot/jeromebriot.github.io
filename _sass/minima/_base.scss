@@ -103,14 +103,15 @@ a {
   color: $brand-color;
   text-decoration: none;
 
-  &:visited {
+  /*&:visited {
     color: darken($brand-color, 15%);
-  }
+  }*/
 
   &:hover {
-    color: $text-color;
-    /*text-decoration: underline;*/
-	text-decoration: underline dotted;
+    /*color: $text-color;*/
+	color: #444;
+    text-decoration: underline;
+	/*text-decoration: underline dotted;*/
   }
 
   .social-media-list &:hover {
