@@ -13,16 +13,16 @@
 	{% if page.lang == "en" %}
 		{% assign pages=site.pages | where:"ref", page.ref | where:"lang", "fr" %}
 		{% if pages.size > 0 %}
-		 <p class="site-title" style="float:left; margin-left: 3%; text-align: left; color:#ccc;">En&nbsp;|&nbsp;</p><a href="{{ pages[0].url | prepend: site.baseurl }}" class="site-title" title="Parlez-vous français ?" style="color: #E8AD23">Fr</a>
+		 <p class="site-title" style="float:left; margin-left: 3%; text-align: left; color:#ccc;">En&nbsp;</p><a href="{{ pages[0].url | prepend: site.baseurl }}" class="site-title" title="Parlez-vous français ?" style="color: #E8AD23">Fr</a>
 		 {% else %}
-		 <p class="site-title" style="float:left; margin-left: 3%; text-align: left; color:#ccc;">En&nbsp;|&nbsp;Fr</p>
+		 <p class="site-title" style="float:left; margin-left: 3%; text-align: left; color:#ccc;">En&nbsp;Fr</p>
 		{% endif %}	
 	{% else %}
 		{% assign pages=site.pages | where:"ref", page.ref | where:"lang", "en" %}
 		{% if pages.size > 0 %}
-		 <a href="{{ pages[0].url | prepend: site.baseurl }}" class="site-title" title="Do you speak English?" style="float:left; margin-left: 3%;color: #E8AD23">En</a><p class="site-title" style="text-align: left; color:#ccc;">&nbsp;|&nbsp;Fr</p>
+		 <a href="{{ pages[0].url | prepend: site.baseurl }}" class="site-title" title="Do you speak English?" style="float:left; margin-left: 3%;color: #E8AD23">En</a><p class="site-title" style="text-align: left; color:#ccc;">&nbsp;Fr</p>
 		 {% else %}
-		 <p class="site-title" style="float:left; margin-left: 3%; text-align: left; color:#ccc;">En&nbsp;|&nbsp;Fr</p>
+		 <p class="site-title" style="float:left; margin-left: 3%; text-align: left; color:#ccc;">En&nbsp;Fr</p>
 		{% endif %}		
 	{% endif %}
   
