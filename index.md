@@ -8,8 +8,9 @@ ref: index
 level: 0
 ---
 
-I am [Jerome Briot]({{ "/" | relative_url }}) and I can help you to realize your scientific or industrial project. You have strong expertise in your field and you know exactly what you want. Do you lack technical resources? Are you limited by existing tools? Do you have difficulty defining the steps to realize your idea? Thanks to my skills and my network, we will lead your project together to success.
+I am [Jerome Briot]({{ "/" | relative_url }}) and I can help you to materialize **your scientific or industrial project**. You have **strong expertise** and you know what you want. Do you need to **validate a feasibility** or **design a prototype**? Do you lack **mechanical**, **computer** or **electronic resources**? Thanks to **my versatility**, **my network** and **your expertise**, we will lead **your project** together to **success**.
 
-Check my [resume]({{ "/resume/" | relative_url }}) if you want to know more about my career.
+I conducte **innovative projects** since more than **15 years** with professionals from **different fields**: researchers, industrialists, surgeons, veterinarians, biologists... I had the chance **to meet** and **exchange** with people from **all over the world**: Japan, Lebanon, Algeria, Tunisia, United States, Canada, Syria, China, Colombia, Chile... and some French words too!
 
-My tools: Fusion 360, Python, MATLAB, C, Ultimaker 2+, Microchip PIC, Arduino.
+[Contact me]({{ "/contact/" | relative_url }}) now or check my [resume]({{ "/resume/" | relative_url }}) first if you want to know more about my particular background.
+

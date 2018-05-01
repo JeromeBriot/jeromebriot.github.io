@@ -7,13 +7,34 @@ ref: resume
 lang: en
 ---
 
-* computer programming (MATLAB, Python, C)
-* 3D mechanical design (Fusion 360)
-* 3D printing (Ultimaker)
-* microcontroller programming (Microchip PIC and Arduino)
+## EXPERIENCE
 
-I worked for 15 years in medical research. I carried out **innovative projects** with professionals from **different fields**: researchers, industrialists, surgeons, veterinarians, biologists… I also had the chance to **meet** and **exchange** with people from all over the world: Japan, Lebanon, Algeria, Tunisia, United States, Canada, Syria, China, Colombia , Chile… and some French people too!
+### Freelance R&D engineer | 2015 - En cours
 
-Freelance since 2015, I carry on activities with some French research centers. I work on personnal projects also.
+### R&D engineer | 2006 - 2015
+
+### R&D engineer | 2000 - 2006
+
+<div style="width: 40%;margin-left: auto;margin-right: auto; padding-bottom: 5px"><hr style="border:0; border:1px solid #E8AD23;"></div>
+
+## TECHNICAL SKILLS
+
+<div style="width: 40%;margin-left: auto;margin-right: auto; padding-bottom: 5px"><hr style="border:0; border:1px solid #E8AD23;"></div>
+
+## PROGRAMMING SKILLS
+
+Languages: MATLAB, Python, C, Scilab.
+
+Operating systems: Windows, Linux, Mac OS X.
+
+<div style="width: 40%;margin-left: auto;margin-right: auto; padding-bottom: 5px"><hr style="border:0; border:1px solid #E8AD23;"></div>
+
+## EDUCATION
+
+PH.D. in biomechanics
+
+<div style="width: 40%;margin-left: auto;margin-right: auto; padding-bottom: 5px"><hr style="border:0; border:1px solid #E8AD23;"></div>
+
+## INITIATIVES
 
 Since 2006, I **have volunteered** on the Developpez.com **support** website that I joined to create the French community of **MATLAB** users. I was previously an active member of the MATLAB English forum on the MathWorks site. I'm also now supporting the **Fusion 360 API and Scripts** forum on the Autodesk website.

@@ -7,14 +7,35 @@ ref: resume
 lang: fr
 ---
 
-* programmation informatique (MATLAB, Python, C)
-* conception mécanique 3D (Fusion 360)
-* impression 3D (Ultimaker)
-* programmation de microcontroleurs (Microchip PIC et Arduino) 
+## EXPÉRIENCES
 
-J'ai travaillé pendant 15 ans dans la recherche médicale où j'ai réalisé des **projets innovants** avec des professionnels de **différents domaines**&nbsp;: chercheurs, industriels, chirurgiens, vétérinaires, biologistes… J'ai également eu la chance de **rencontrer** et d'**échanger** avec des personnes des quatre coins du monde&nbsp;: Japon, Liban, Algérie, Tunisie, États-Unis, Canada, Syrie, Chine, Colombie, Chili… et quelques français aussi&nbsp;!
+### Ingénieur R&D indépendant | 2015 - En cours
 
-Indépendant depuis 2015, je partage mon activité entre des projets personnels et des collaborations avec des centres de recherche en France.
+### Ingénieur R&D | 2006 - 2015
+
+### Ingénieur R&D | 2000 - 2006
+
+<div style="width: 40%;margin-left: auto;margin-right: auto; padding-bottom: 5px"><hr style="border:0; border:1px solid #E8AD23;"></div>
+
+## COMPÉTENCES TECHNIQUES
+
+<div style="width: 40%;margin-left: auto;margin-right: auto; padding-bottom: 5px"><hr style="border:0; border:1px solid #E8AD23;"></div>
+
+## COMPÉTENCES INFORMATIQUE
+
+Langages: MATLAB, Python, C, Scilab.
+
+Systèmes d'exploitation : Windows, Linux, Mac OS X.
+
+<div style="width: 40%;margin-left: auto;margin-right: auto; padding-bottom: 5px"><hr style="border:0; border:1px solid #E8AD23;"></div>
+
+## ÉDUCATION
+
+Doctorat en biomécanique
+
+<div style="width: 40%;margin-left: auto;margin-right: auto; padding-bottom: 5px"><hr style="border:0; border:1px solid #E8AD23;"></div>
+
+## INITIATIVES
 
 Depuis 2006, je suis **bénévole** sur le site d'**entraide** Developpez.com que j'ai rejoint pour créer la communauté francophone des utilisateurs de **MATLAB**. J'étais auparavant un membre actif du forum anglophone MATLAB sur le site de MathWorks. J'apporte également maintenant mon aide dans le forum **Fusion 360 API and Scripts** sur le site de Autodesk.
 

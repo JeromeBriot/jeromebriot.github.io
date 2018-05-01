@@ -56,12 +56,12 @@ minima:
 header_pages:
  - index.md
  - accueil.md
- - blog.md
- - blog_fr.md
- - projects.md
- - projets.md
  - services.md
  - services_fr.md
+ - projects.md
+ - projets.md
+ - blog.md
+ - blog_fr.md
  - contact.md
  - contact_fr.md
  
