@@ -6,6 +6,7 @@ ref: hexaboard
 lang: en
 ---
 
+My role: 3D design, 3D printing.
 
 Hexaboard is an electronic card designed to access sensors directly in Python or MATLAB. The board embeds a Microchip MCP2221 which is a USB-to-UART/I2C serial converter. The board was originaly designed by Arnauld Biganzoli for teaching purpose.
 

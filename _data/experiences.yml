@@ -1,0 +1,25 @@
+- name: R&D engineer
+  name_fr: Ingénieur R&D
+  start: 2015
+  end: present
+  firm: Freelance
+  firm_fr: Indépendant
+  place: Toulouse, France
+  place_fr: Toulouse, France 
+- name: Biomechanical engineer
+  name_fr: Ingénieur biomécanique
+  start: 2006
+  end: 2015
+  firm: Purpan Hospital
+  firm_fr: Hôpital Purpan
+  place: Toulouse, France
+  place_fr: Toulouse, France
+- name: Research engineer
+  name_fr: Ingénieur de recherche
+  start: 2000
+  end: 2006
+  firm: Biomechanics Laboratory
+  firm_fr: Laboratoire de biomécanique
+  place: Toulouse, France
+  place_fr: Toulouse, France
+ 

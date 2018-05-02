@@ -6,6 +6,8 @@ ref: openfeeder
 lang: fr
 ---
 
+Mon rôle&nbsp;: conception 3D, impression 3D, programmation microcontrolleur et logiciel.
+
 L'Openfeeder est un projet de recherche mené par la [Station d’Ecologie Théorique et Expérimentale](http://www.ecoex-moulis.cnrs.fr/){:target="_blank"}, implantée sur les contreforts des Pyrénées centrales en Ariège.
 
 L'Openfeeder est un système utilisé pour étudier l’effet du réchauffement climatique et du climat montagnard sur le  comportement et l’intelligence des oiseaux. 

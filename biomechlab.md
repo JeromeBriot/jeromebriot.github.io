@@ -6,6 +6,8 @@ ref: biomechlab
 lang: en
 ---
 
+My role: software development, project management, users training and support.
+
 biomechLAB is a tool for research studies that I wrote in the Biomechanics Laboratory in Toulouse, France. Its a software dedicated to the study of articular and bone structures that is mainly used by orthopedic surgeons.
 
 ![biomechLAB]({{ "/assets/images/biomechlab.png" | relative_url }})

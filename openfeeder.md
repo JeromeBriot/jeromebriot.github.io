@@ -6,6 +6,8 @@ ref: openfeeder
 lang: en
 ---
 
+My role: 3D design, 3D printing, microcontroler and software programming.
+
 Openfeeder is a research project carry on by the [Station for Theorical and Experimental Ecology](http://www.ecoex-moulis.cnrs.fr/?lang=en){:target="_blank"} situated in the foothills of the Pyrenees in the department Ariege (France).
 
 The Openfeeder is a device used to study global warming effects and mountain climate effects on the behavior and intelligence of birds.
