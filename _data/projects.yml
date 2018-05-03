@@ -1,0 +1,25 @@
+- id: openfeeder
+  name: Openfeeder
+  name_fr: Openfeeder
+  excerpt: The Openfeeder is an intelligent bird feeder. It is used to study global warming and mountain climate effects on the behavior and intelligence of birds.
+  excerpt_fr: L’Openfeeder est une mangeoire à oiseaux intelligente. Elle est utilisé pour étudier les effets du réchauffement climatique et du climat montagnard sur le comportement et l’intelligence des oiseaux.
+- id: biomechlab
+  name: biomechLAB
+  name_fr: biomechLAB
+  excerpt: biomechLAB is a software that I created. It is aimed to the study of articular and bone structures with medical imaging.
+  excerpt_fr: biomechLAB est un logiciel que j’ai conçu. Il sert à l’étude des structures osseuses et articulaires à partie d’images médicales (IRM et scanner). 
+- id: hexaboard
+  name: Hexaboard
+  name_fr: Hexaboard
+  excerpt: Hexaboard is an electronic card designed to access sensors directly in Python or MATLAB. The board was originaly designed by Arnauld Biganzoli for teaching purpose.
+  excerpt_fr: L’Hexaboard est une carte électronique conçue pour accéder à des capteurs directement en lanage Python ou MATLAB. La carte a été conçue par Arnauld Biganzoli pour une utilisation en formation.
+- id: fusion360
+  name: Fusion 360 resources
+  name_fr: Ressources pour Fusion 360
+  excerpt: Fusion 360&trade; is a cloud-based 3D CAD/CAM/CAE software for product design. I write and share codes in Python to extend its functionnalities.
+  excerpt_fr: Fusion 360™ est un logiciel de CAO/FAO/IAO 3D basé sur le cloud pour la conception de produits. J’écris et je partage des codes en Python pour étendre ses fonctionnalités.
+- id: matlab
+  name: MATLAB resources
+  name_fr: Ressources pour MATLAB
+  excerpt: MATLAB&reg; is a programming language and an integrated development environment. As a daily user since 2000 and expert, I share codes.
+  excerpt_fr: MATLAB® est un langage de programmation et un environnement de développement. Je programme quotidiennement avec MATLAB depuis 2000. 

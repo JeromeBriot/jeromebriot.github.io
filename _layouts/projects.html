@@ -1,0 +1,29 @@
+---
+layout: default
+---
+<article class="post">
+{% if page.title %}
+  <header class="post-header">
+    <h1 class="post-title" style="display: inline-block;">{{ page.title | escape }}</h1>
+  </header>
+{% endif %} 
+  <div class="post-content">
+    {% if page.lang == "en" %}	
+	  {% for proj in site.data.projects %}
+		<h2 class="project">{{proj.name}}</h2>
+		<p style="display: inline;">{{proj.excerpt}}</p><a href="{{"/projects/" | append: proj.id | relative_url }}"> More informations…</a>
+		{% if forloop.last == false %}
+		  <div style="width: 40%; margin-top: 15px; margin-left: auto; margin-right: auto; padding-bottom: 5px"><hr style="border:0; border:1px solid #E8AD23;"></div>
+		{% endif %} 
+	  {% endfor %}
+	{% else %}
+	  {% for proj in site.data.projects %}
+		<h2 class="project">{{proj.name_fr}}</h2>
+		<p style="display: inline;">{{proj.excerpt_fr}}</p><a href="{{"/fr/projets/" | append: proj.id | relative_url }}"> En savoir plus…</a>	
+		{% if forloop.last == false %}
+		  <div style="width: 40%; margin-top: 15px; margin-left: auto; margin-right: auto; padding-bottom: 5px"><hr style="border:0; border:1px solid #E8AD23;"></div>		
+		{% endif %} 
+	  {% endfor %}
+	{% endif %}	
+  </div>
+</article>
