@@ -1,11 +1,12 @@
 ---
 layout: page
-title: Comment puis-je vous aider ?
 permalink: /fr/contact/
 nav_title: Contact
 ref: contact
 lang: fr
 ---
+
+<h2>Comment puis-je vous aider ?</h2>
 
 <form class="wj-contact" action="https://formspree.io/{{site.email}}" method="POST">
 	<input type="text" name="name" placeholder="Nom">

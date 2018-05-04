@@ -1,11 +1,12 @@
 ---
 layout: page
-title: How can I help you?
 permalink: /contact/
 nav_title: Contact
 ref: contact
 lang: en
 ---
+
+<h2>How can I help you?</h2>
 
 <!--- https://gist.github.com/sharu725/b8bc09d8a6bb57c637df0b5ae958c155 --->
 
