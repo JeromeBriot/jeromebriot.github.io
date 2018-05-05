@@ -2,7 +2,6 @@
 layout: default
 ---
 <article class="post">
-
 {% if page.title %}
   <header class="post-header">
   {% if page.ref == "index" %}
@@ -12,15 +11,13 @@ layout: default
 	  <h1 class="post-title" style="font-size: 32px; width: 70%; margin-left: auto; margin-right:auto; text-align: center;">{{ page.title | replace: " ?", "&nbsp;?" }}</h1>
 	{% endif %}	
   {% else %}
-    <h1 class="post-title" style="display: inline-block;">{{ page.title | escape }}</h1>
+    {% if page.display_title %}
+      <h2 class="post-title" style="display: inline-block;">{{ page.title | escape }}</h2>
+    {% endif %} 
   {% endif %} 
   </header>  
 {% endif %} 
-
-
-
   <div class="post-content">
     {{ content }}
   </div>
-
 </article>
