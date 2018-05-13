@@ -56,8 +56,6 @@ minima:
 header_pages:
  - index.md
  - accueil.md
- - projects.md
- - projets.md
  - contact.md
  - contact_fr.md
  
