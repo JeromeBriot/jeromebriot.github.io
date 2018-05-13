@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: project
 title: Ressources pour MATLAB
 permalink: /fr/projets/matlab/
 ref: matlab

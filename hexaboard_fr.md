@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: project
 title: Hexaboard
 permalink: /fr/projets/hexaboard/
 ref: hexaboard

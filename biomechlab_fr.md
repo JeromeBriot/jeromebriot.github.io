@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: project
 title: biomechLAB
 permalink: /fr/projets/biomechlab/
 ref: biomechlab

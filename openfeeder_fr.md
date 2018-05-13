@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: project
 title: Openfeeder
 permalink: /fr/projets/openfeeder/
 ref: openfeeder

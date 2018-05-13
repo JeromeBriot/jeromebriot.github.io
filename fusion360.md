@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: project
 title: Fusion 360 resources
 permalink: /projects/fusion360/
 ref: fusion360

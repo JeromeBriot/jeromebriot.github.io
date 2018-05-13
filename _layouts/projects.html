@@ -2,23 +2,24 @@
 layout: default
 ---
 <article class="post">
-  <div class="post-content">
-    {% if page.lang == "en" %}	
-	  {% for proj in site.data.projects %}
-		<h2 class="project">{{proj.name}}</h2>
-		<p style="display: inline;">{{proj.excerpt}}</p><a href="{{"/projects/" | append: proj.id | relative_url }}"> More informations…</a>
-		{% if forloop.last == false %}
-		  <div style="width: 40%; margin-top: 15px; margin-left: auto; margin-right: auto; padding-bottom: 5px"><hr style="border:0; border:1px solid #E8AD23;"></div>
-		{% endif %} 
-	  {% endfor %}
-	{% else %}
-	  {% for proj in site.data.projects %}
-		<h2 class="project">{{proj.name_fr}}</h2>
-		<p style="display: inline;">{{proj.excerpt_fr}}</p><a href="{{"/fr/projets/" | append: proj.id | relative_url }}"> En savoir plus…</a>	
-		{% if forloop.last == false %}
-		  <div style="width: 40%; margin-top: 15px; margin-left: auto; margin-right: auto; padding-bottom: 5px"><hr style="border:0; border:1px solid #E8AD23;"></div>		
-		{% endif %} 
-	  {% endfor %}
-	{% endif %}	
+  <div class="post-content">  
+	{% for proj in site.data.projects %}
+	  {% if page.lang == "en" %}
+	    {% assign name = proj.name %}	  
+        {% assign excerpt = proj.excerpt %}
+	    {% assign projects_url = "/projects/" %}
+	    {% assign str = " More informations…" %}
+      {% else %}
+	    {% assign name = proj.name_fr %}
+        {% assign excerpt = proj.excerpt_fr %}
+	    {% assign projects_url = "/fr/projets/" %}
+	    {% assign str = " En savoir plus…" %}
+	  {% endif %}	    
+      <h2>{{ name }}</h2>
+	  <p class="projects">{{ excerpt }}</p><a href="{{ projects_url | append: proj.id | relative_url }}">{{ str }}</a>
+	  {% if forloop.last == false %}
+		<div class="projects"><hr class="projects"></div>
+	  {% endif %} 
+	{% endfor %}
   </div>
 </article>
