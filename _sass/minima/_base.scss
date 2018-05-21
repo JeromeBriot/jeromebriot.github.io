@@ -110,7 +110,7 @@ a {
   &:hover {
     /*color: $text-color;*/
 	color: #444;
-    text-decoration: underline;
+    text-decoration: none;
 	/*text-decoration: underline dotted;*/
   }
 
@@ -118,7 +118,7 @@ a {
     text-decoration: none;
 
     .username {
-      text-decoration: underline;
+      text-decoration: none;
     }
   }
 }
