@@ -75,6 +75,15 @@ nav a:hover::before {
   width: 100%;
 }
 
+/* Avatar */
+img.avatar {
+	float:left;
+	border-radius: 50%;
+	max-width: 50px;
+	padding-top: 3px;
+	margin-right: 5px;
+}
+
 /* Contact */
 
 form.wj-contact input[type="text"], form.wj-contact textarea[type="text"] {
@@ -95,7 +104,8 @@ form.wj-contact input[type="text"], form.wj-contact textarea[type="text"] {
 form.wj-contact input[type="submit"] {
     outline: none;
     color: white;
-    background-color: #2e83e6;
+    /*background-color: #2e83e6;*/
+	background-color: #E8AD23;
     border-radius: 3px;
     padding: 0.5em;
     margin: 0.25em 0 0 0;
