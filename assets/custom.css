@@ -100,6 +100,7 @@ form.wj-contact input[type="text"], form.wj-contact textarea[type="text"] {
     border-width: 1px;
     border-radius: 3px;
     transition: box-shadow .2s ease;
+	font-size: 15px;
 }
 form.wj-contact input[type="submit"] {
     outline: none;
@@ -112,6 +113,7 @@ form.wj-contact input[type="submit"] {
     border: 1px solid transparent;
     height: auto;
 	cursor:pointer;
+	font-size: 15px;
 }
 
 /* Resume */
