@@ -65,5 +65,6 @@ theme: minima
 exclude:
  - Gemfile
  - Gemfile.lock
+ - vendor
 
   
