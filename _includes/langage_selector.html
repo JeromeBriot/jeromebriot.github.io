@@ -1,0 +1,25 @@
+{% assign margin-left = "9%" %}
+
+	{% if page.lang == "en" %}
+		{% if page.is_post %}
+			{% assign pages=site.posts | where:"ref", page.ref | where:"lang", "fr" %}
+		{% else %}
+			{% assign pages=site.pages | where:"ref", page.ref | where:"lang", "fr" %}
+		{% endif %}
+		{% if pages.size > 0 %}
+			<p class="langage-selector-left">En&nbsp;<span class="langage-selector-span">&#149;</span>&nbsp;</p><a href="{{ pages[0].url | prepend: site.baseurl }}" class="langage-selector-right" title="Parlez-vous français ?">Fr</a>
+		{% else %}
+            <p class="langage-selector-none">En&nbsp;&#149;&nbsp;Fr</p>
+		{% endif %}
+	{% else %}
+		{% if page.is_post %}
+			{% assign pages=site.posts | where:"ref", page.ref | where:"lang", "en" %}
+		{% else %}
+			{% assign pages=site.pages | where:"ref", page.ref | where:"lang", "en" %}
+		{% endif %}
+		{% if pages.size > 0 %}
+			<a href="{{ pages[0].url | prepend: site.baseurl }}" class="langage-selector-left" title="Do you speak English?">En</a><p class="langage-selector-right">&nbsp<span class="langage-selector-span">&#149;</span>&nbsp;Fr</p>
+		{% else %}
+			<p class="langage-selector-none">En&nbsp;&#149;&nbsp;Fr</p>
+		{% endif %}
+	{% endif %}

@@ -1,0 +1,12 @@
+<div class="post-content" style="height:200px">
+    <img class="avatar-big" src="/assets/images/jerome-briot.jpg" alt="jerome-briot-logo"/>
+    {% if page.lang == "en" %}
+        <p style="font-size: 20px;text-align: center"><b>Hello, I'm a mechanical&nbsp;design<br/>and prototyping freelancer.</b></p>
+        <p style="text-align: center">I'm passionate about computer programming and new technologies. I've been designing devices and software for {{ "now" | date: "%Y" | minus: 2005 }} years mainly for research activities.</p>
+        <p style="text-align: center">Please have a look at the <a href="/services/">services</a> I offer and <a href="/contact/">contact me</a>.</p>
+    {% else %}
+        <p style="font-size: 20px;text-align: center"><b>Bonjour, je suis ingénieur indépendant en conception mécanique et prototypage.</b></p>
+        <p style="text-align: center">Je suis passionné par la programmation informatique et les nouvelles technologies. Je conçois des appareils et des logiciels depuis {{ "now" | date: "%Y" | minus: 2005 }} ans principalement pour des activités de recherche.</p>
+        <p style="text-align: center">Merci de consulter les <a href="/fr/services/">services</a> que je propose et <a href="/fr/contact/">contactez-moi</a>.</p>
+    {% endif %}
+</div>

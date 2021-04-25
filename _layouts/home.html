@@ -3,32 +3,79 @@ layout: default
 ---
 
 <div class="home">
-  {% if page.title %}
-    <h1 class="page-heading">{{ page.title }}</h1>
-  {% endif %}
-
-  {{ content }}
-
-  {% if site.posts.size > 0 %}
+  {% include about.html %}
+  <div class="post-content">
+    <h2 class="post-list-heading">Services</h2>
+  </div>
+  <section>
+    {% if page.lang == "en" %}
+      <div class="four-col">
+        <a href="/services/index.html#design"><img class="services-small" src="/assets/images/openfeeder.gif" alt="Perchoir pour oiseau - Projet Openfeeder"/></a>
+        <h3 style="margin-bottom: 0">Design and</br>3D printing</h3>
+        <p><a href="/services/index.html#design">More&#133;</a></p>
+      </div>
+      <div class="four-col">
+        <a href="/services/index.html#prototyping"><img class="services-small" src="/assets/images/dispositif-mesure-02.jpg" alt="Boitier impression 3D"/></a>
+        <h3 style="margin-bottom: 0">Device</br>prototyping</h3>
+        <p><a href="/services/index.html#prototyping">More&#133;</a></p>
+      </div>
+      <div class="four-col">
+        <a href="/services/index.html#microcontrolers"><img class="services-small" src="/assets/images/microchip-curiosity-nano.jpg" alt="Programmation microcontroleurs"/></a>
+        <h3 style="margin-bottom: 0">Microcontrollers</br>programming</h3>
+        <p><a href="/services/index.html#microcontrolers">More&#133;</a></p>
+      </div>
+      <div class="four-col">
+        <a href="/services/index.html#fusion360"><img class="services-small" src="/assets/images/fusion-360-python.png" alt="Fusion 360 and Python"/></a>
+        <h3 style="margin-bottom: 0">Fusion 360&trade;</br>programming</h3>
+        <p><a href="/services/index.html#fusion360">More&#133;</a></p>
+      </div>
+    {% else %}
+    <div class="four-col">
+      <a href="/fr/services/index.html#conception"><img class="services-small" src="/assets/images/openfeeder.gif" alt="Perchoir pour oiseau - Projet Openfeeder"/></a>
+      <h3 style="margin-bottom: 0">Conception et</br>impression 3D</h3>
+      <p><a href="/fr/services/index.html#conception">En savoir plus&#133;</a></p>
+    </div>
+    <div class="four-col">
+      <a href="/fr/services/index.html#prototypage"><img class="services-small" src="/assets/images/dispositif-mesure-02.jpg" alt="Boitier impression 3D"/></a>
+      <h3 style="margin-bottom: 0">Prototypage de</br>dispositifs</h3>
+      <p><a href="/fr/services/index.html#prototypage">En savoir plus&#133;</a></p>
+    </div>
+    <div class="four-col">
+      <a href="/fr/services/index.html#microcontroleurs"><img class="services-small" src="/assets/images/microchip-curiosity-nano.jpg" alt="Programmation microcontroleurs"/></a>
+      <h3 style="margin-bottom: 0">Programmation de</br>microcontr&ocirc;leurs</h3>
+      <p><a href="/fr/services/index.html#microcontroleurs">En savoir plus&#133;</a></p>
+    </div>
+    <div class="four-col">
+      <a href="/fr/services/index.html#fusion360"><img class="services-small" src="/assets/images/fusion-360-python.png" alt="Fusion 360 and Python"/></a>
+      <h3 style="margin-bottom: 0">Programmation de Fusion&nbsp;360&trade;</h3>
+      <p><a href="/fr/services/index.html#fusion360">En savoir plus&#133;</a></p>
+    </div>
+    {% endif %}
+</section>
+<!-- {% if site.posts.size > 0 %}
+  <div class="post-content">
     <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
     <ul class="post-list">
-      {% for post in site.posts %}
-      <li>
-        {% assign date_format = site.minima.date_format | default: "%b %d, %Y" %}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
-        {% if site.show_excerpts %}
-          {{ post.excerpt }}
-        {% endif %}
-      </li>
-      {% endfor %}
+    {% if page.lang == "en" %}
+      {% assign posts=site.posts | where:"lang", "en" %}
+    {% else %}
+      {% assign posts=site.posts | where:"lang", "fr" %}
+    {% endif %}
+    {% for post in posts limit:3 %}
+    <li>
+    <h3 style="margin-bottom: 0">
+      <a class="post-link" href="{{ post.url | relative_url }}">
+      {{ post.title | escape }}
+      </a>
+    </h3>
+    {% assign date_format = site.minima.date_format | default: "%b %d, %Y" %}
+    <span class="post-meta">{% include date.html date=post.date %}</span>
+    {% if site.show_excerpts %}
+      {{ post.excerpt }}
+    {% endif %}
+    </li>
+    {% endfor %}
     </ul>
-
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-  {% endif %}
-
+  </div>
+{% endif %} -->
 </div>

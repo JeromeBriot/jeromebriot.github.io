@@ -1,5 +1,345 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
 ---
 
 @import "minima";
+
+@media (prefers-color-scheme: dark) {
+  // Styles for dark mode here
+  :root {
+    --text-color: #adbac7;
+    --background-color: #22272e;
+    --link-color: #008097;
+    --post-list-color: #2d333b;
+    --empty-img:
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  // Styles for light mode here
+  :root {
+    --text-color: #22272e;
+    --background-color: #ffffff;
+    --link-color: #008097;
+    --post-list-color: #f6f8fa;
+  }
+}
+
+$langage-selector-margin: 55px;
+$spacing-unit:     30px !default;
+
+/**
+ * Basic styling
+ */
+ body {
+  color: var(--text-color);
+  // background-color: $background-color;
+  background-color: var(--background-color);
+}
+
+/* Site header */
+.site-header {
+  border-top: none;
+  border-bottom: none;
+  min-height: 55.95px;
+  position: relative;
+  // background-color: $background-color;
+}
+
+/**
+ * Site footer
+ */
+ .site-footer {
+  padding: 0 0 $spacing-unit 0;
+}
+
+.page-content {
+  padding: 15px 0 0 0;
+}
+
+.site-title, .site-title:visited { font-size: 26px; color: var(--link-color); text-decoration: none;text-transform: uppercase; margin-left: 45px;}
+.site-title:hover { color: var(--text-color); text-decoration: none;}
+.site-nav { float: left; }
+
+/* How to create an awesome navigation bar with HTML & CSS by Kevin Powell */
+/*	https://www.youtube.com/watch?v=FEmysQARWFU */
+/*	https://codepen.io/kevinpowell/pen/GrLKNo */
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.post-list-heading {
+  text-align: center;
+  background-color: var(--post-list-color);
+  border-radius: 10px;
+}
+
+/**
+ * Site footer
+ */
+.site-footer {
+  border-top: none;
+}
+
+.footer-col {
+  margin-bottom: 0;
+}
+
+.footer-col-wrapper {
+  // color: #e8ad00;
+  color: var(--text-color);
+}
+
+.footer-wrapper {
+  border-top: 2px solid var(--post-list-color); padding-top: 20px;
+}
+
+.logo {
+  float: left;
+  padding: 10px 0;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 11px;
+  padding-top: 13px;
+
+  position: relative;
+}
+
+nav a {
+  color: var(--link-color);
+  text-decoration: none;
+  font-size: 18px;
+}
+
+nav a:visited {
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #E8AD23;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+/* Avatar */
+img.avatar-small {
+	float:left;
+	border-radius: 50%;
+	max-width: 50px;
+	padding: 3px 0;
+	margin-right: 5px;
+}
+
+img.avatar-big {
+	float:left;
+	border-radius: 50%;
+	max-width: 250px;
+	padding-top: 0px;
+  // padding-right: 30px;
+	margin-right: 25px;
+  margin-top: 0;
+  // margin-bottom: 25px;
+}
+
+section {
+  display: flex;
+}
+div.three-col {
+  text-align: center;
+  flex-grow: 1;
+  margin: 0 10px;
+  width: 200px;
+}
+
+div.four-col {
+  text-align: center;
+  flex-grow: 1;
+  // margin-left: 20px;
+  margin: 0 auto;
+  width: 200px;
+}
+
+/* Langage selector */
+.langage-selector-left, .langage-selector-right, .langage-selector-none {
+  font-size: 18px;
+  text-decoration: none;
+  line-height: 54px;
+  text-align: left;
+  margin-bottom: 0;float:left;
+}
+
+.langage-selector-left {
+  margin-left: $langage-selector-margin;
+}
+
+a.langage-selector-right, a.langage-selector-left {
+  color: var(--link-color);
+}
+
+a.langage-selector-right:hover, a.langage-selector-left:hover {
+  color:var(--text-color);
+}
+
+p.langage-selector-right, p.langage-selector-left {
+  color:var(--text-color);
+}
+
+p.langage-selector-none {
+  margin-left: $langage-selector-margin;
+  color:var(--text-color);
+}
+
+.langage-selector-span {
+  color:var(--text-color);
+}
+
+a {
+  color:var(--link-color);
+}
+
+a:hover {
+  color:var(--text-color);
+}
+
+/* Services */
+
+div.services {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+p.services {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 40px;
+}
+
+div.service-example {
+  margin: 0px 40px 20px 40px;
+  padding: 10px 15px 0 15px;
+  border: 2px solid var(--text-color);
+  border-radius: 10px;
+}
+
+div.service-example-title {
+  text-align: center;
+  margin-top: -32px;
+}
+
+span.service-example-title {
+  background-color: var(--background-color);
+  padding: 0 5px;
+}
+
+img.services {
+  max-width: 287px;
+  border-radius: 10px;
+}
+
+img.services-small {
+  max-width: 150px;
+  max-height: 100px;
+  border-radius: 10px;
+  margin: auto;
+}
+
+/* Contact */
+form.wj-contact input[type="text"], form.wj-contact textarea[type="text"] {
+    width: 97%;
+    vertical-align: middle;
+    margin-top: 0.25em;
+    margin-bottom: 0.5em;
+    padding: 0.75em;
+    /*font-family: monospace, sans-serif;*/
+    font-weight: lighter;
+    border-style: solid;
+    border-color: #444;
+    outline-color: #2e83e6;
+    border-width: 1px;
+    border-radius: 10px;
+    transition: box-shadow .2s ease;
+	font-size: 15px;
+}
+form.wj-contact input[type="submit"] {
+    outline: none;
+    color: white;
+    /*background-color: #2e83e6;*/
+	background-color: #E8AD23;
+    border-radius: 10px;
+    padding: 0.5em;
+    margin: 0.25em 0 0 0;
+    border: 1px solid transparent;
+    height: auto;
+	cursor:pointer;
+	font-size: 15px;
+}
+
+/* Resume */
+
+div.resume {
+	margin-left: 2%;
+}
+
+h2.resume {
+	margin-bottom: 2px;
+}
+
+h4.resume {
+	margin-bottom: 0;
+}
+
+p.resume_exp_info {
+	font-size: 14px;
+	color: #808080;
+	margin-bottom: 0;
+}
+
+/* Projects */
+
+p.projects {
+	display: inline;
+}
+
+div.projects {
+	width: 40%;
+	margin-top: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 5px;
+}
+
+hr.projects  {
+	border:0;
+	border:1px solid #E8AD00;
+}

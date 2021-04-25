@@ -2,95 +2,82 @@
 layout: default
 ---
 <article class="post">
-<!---{% if page.title %}
-  <header class="post-header">
-  {% if page.ref == "index" %}
-    {% if page.lang == "en" %}
-	  <h1 class="post-title" style="width: 70%; margin-left: auto; margin-right:auto; text-align: center;">{{ page.title | escape }}</h1>
-	{% else %}
-	  <h1 class="post-title" style="width: 70%; margin-left: auto; margin-right:auto; text-align: center;">{{ page.title | replace: " ?", "&nbsp;?" }}</h1>
-	{% endif %}	
-  {% else %}
-    <h1 class="post-title" style="display: inline-block;">{{ page.title | escape }}</h1>
-  {% endif %}  
-  </header>
-{% endif %} --->
-
   <div class="post-content">
-    
-	{% if page.lang == "en" %}	
-	  <h2 class="resume">Experiences</h2>
+	{% if page.lang == "en" %}
+	<h2 class="post-list-heading">Resume</h2>
+	  <h3 class="resume">Experiences</h3>
 	  <div class="resume">
-	  {% for exp in site.data.experiences %}  
+	  {% for exp in site.data.experiences %}
 	    <h4 class="resume">{{exp.name}}</h4>
 		{% if exp.end == "present" %}
 		  {% assign exp_end = "present" %}
 		{% else %}
 		  {% assign exp_end = exp.end %}
-		{% endif %}	    
+		{% endif %}
 		<p class="resume_exp_info">{{exp.firm}}, {{exp.place}} &ndash; {{exp.start}} to {{ exp_end }}</p>
 	  {% endfor %}
 	 </div>
-	  <h2 class="resume">Skills</h2>
+	  <h3 class="resume">Skills</h3>
 	  <div class="resume">
 	    <h4 class="resume">Computing</h4>
 		<ul>
-		<li>Languages: MATLAB, Python, C</li>
-		<li>Systems: Windows, Linux, Mac OS X</li>
+		<li>Languages: Python, C, MATLAB</li>
+		<li>Systems: Windows, Linux, Mac</li>
 		</ul>
 	    <h4 class="resume">Mechanics</h4>
 		<ul>
-		<li>3D design: Fusion 360</li>
+		<li>3D design: Autodesk Fusion 360</li>
 		<li>3D printing: Ultimaker 2+</li>
 		</ul>
 		<h4 class="resume">Electronics</h4>
 		<ul>
-		<li>Microcontroller programming: Microchip PIC and Arduino</li>
+		<li>Microcontroller programming: Microchip PIC, Arduino & Raspberry Pi</li>
 		</ul>
 	  </div>
-	  <h2 class="resume">Education</h2>
+	  <h3 class="resume">Education</h3>
 	  <div class="resume">
 		<h4 class="resume">Ph.D. in Biomechanics</h4>
 		<p class="resume_exp_info">Université Paul Sabatier, Toulouse, France &ndash; 2005</p>
 		<p>Contribution to the objective quantification of osteoarticular pathologies through an interdisciplinary approach in imaging and biomechanics.</p>
-	  </div>  
-	{% else %}  	
-	  <h2 class="resume">Expériences</h2>
+	  </div>
+	{% else %}
+	<h2 class="post-list-heading">CV</h2>
+	  <h3 class="resume">Expériences</h3>
 	  <div class="resume">
-	  {% for exp in site.data.experiences %}  
+	  {% for exp in site.data.experiences %}
 	    <h4 class="resume">{{exp.name_fr}}</h4>
 		{% if exp.end == "present" %}
-		<p class="resume_exp_info">{{exp.firm}}, {{exp.place}} &ndash; {{exp.start}} à maintenant</p>
+		<p class="resume_exp_info">{{exp.firm_fr}}, {{exp.place}} &ndash; {{exp.start}} à maintenant</p>
 		{% else %}
-		<p class="resume_exp_info">{{exp.firm}}, {{exp.place}} &ndash; {{exp.start}} à {{ exp.end }}</p>
-		{% endif %}	    
+		<p class="resume_exp_info">{{exp.firm_fr}}, {{exp.place}} &ndash; {{exp.start}} à {{ exp.end }}</p>
+		{% endif %}
 	  {% endfor %}
 	</div>
-	  <h2 class="resume">Compétences</h2>
+	  <h3 class="resume">Compétences</h3>
 	  <div class="resume">
 	    <h4 class="resume">Informatique</h4>
 		<ul>
-		<li>Langages&nbsp;: MATLAB, Python, C</li>
-		<li>Systèmes&nbsp;: Windows, Linux, Mac OS X</li>
+		<li>Langages&nbsp;: Python, C, MATLAB</li>
+		<li>Systèmes&nbsp;: Windows, Linux, Mac</li>
 		</ul>
 	    <h4 class="resume">Mécanique</h4>
 		<ul>
-		<li>Conception 3D&nbsp;: Fusion 360</li>
+		<li>Conception 3D&nbsp;: Autodesk Fusion 360</li>
 		<li>Impression 3D&nbsp;: Ultimaker 2+</li>
 		</ul>
 		<h4 class="resume">Electronique</h4>
 		<ul>
-		<li>Programmation microcontrolleur&nbsp;: Microchip PIC and Arduino</li>
+		<li>Programmation de microcontroleurs&nbsp;: Microchip PIC, Arduino et Raspberry Pi</li>
 		</ul>
 	  </div>
-	  <h2 class="resume">Formation</h2>
+	  <h3 class="resume">Formation</h3>
 	  <div class="resume">
 		<h4 class="resume">Doctorat en Biomécanique</h4>
 		<p class="resume_exp_info">Université Paul Sabatier, Toulouse, France &ndash; 2005</p>
 		<p>Contribution à la quantification objective des pathologies ostéo-articulaires par une approche interdisciplinaire en imagerie et biomécanique.</p>
-	  </div> 
-	{% endif %}	
-	
+	  </div>
+	{% endif %}
+
   </div>
 
 </article>
