@@ -18,7 +18,7 @@
 			{% assign pages=site.pages | where:"ref", page.ref | where:"lang", "en" %}
 		{% endif %}
 		{% if pages.size > 0 %}
-			<a href="{{ pages[0].url | prepend: site.baseurl }}" class="langage-selector-left" title="Do you speak English?">En</a><p class="langage-selector-right">&nbsp<span class="langage-selector-span">&#8226;</span>&nbsp;Fr</p>
+			<a href="{{ pages[0].url | prepend: site.baseurl }}" class="langage-selector-left" title="Do you speak English?">En</a><p class="langage-selector-right">&nbsp;<span class="langage-selector-span">&#8226;</span>&nbsp;Fr</p>
 		{% else %}
 			<p class="langage-selector-none">En&nbsp;&#8226;&nbsp;Fr</p>
 		{% endif %}

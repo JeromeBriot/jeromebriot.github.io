@@ -37,7 +37,7 @@ lang: fr
   <div class="services">
     <img class="services" src="/assets/images/dispositif-mesure-02.jpg" alt="Boitier impression 3D"/>
   </div>
-  <p>Programmation de l'interface PC (<a href="https://www.python.org/" target="_blank">Python&copy;</a>) et smartphone (<a href="https://flutter.dev/" target="_blank">Flutter&#153; SDK</a>) pour l'affichage du signal transmis via Bluetooth&nbsp;:</p>
+  <p>Programmation de l'interface PC (<a href="https://www.python.org/" target="_blank">Python&copy;</a>) et smartphone (<a href="https://flutter.dev/" target="_blank">Flutter&trade; SDK</a>) pour l'affichage du signal transmis via Bluetooth&nbsp;:</p>
   <div class="services">
     <img class="services" src="/assets/images/dispositif-mesure-03.jpg" alt="Application smartphone (Flutter)"/>
   </div>
