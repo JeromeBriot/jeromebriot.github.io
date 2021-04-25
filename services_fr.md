@@ -67,50 +67,50 @@ lang: fr
   </div>
   <section>
         <div class="three-col">
-          <a href=""><img class="services-small" src="/assets/images/3DPrintPlus.png" alt="3D Print Plus"/></a>
+          <a href="https://apps.autodesk.com/FUSION/fr/Detail/Index?id=2942207745179825936&appLang=en&os=Win64" target="_blank"><img class="services-small" src="/assets/images/3DPrintPlus.png" alt="3D Print Plus"/></a>
           <h3 style="margin-bottom: 0">3D Print<br/>Plus</h3>
-          <p>Version améliorée de l'utilitaire 3D Print avec&nbsp;: orientation personnalisée, conversion d'unité, automatisation du nommage des fichiers STL&#8230; <a href="">En savoir plus&#8230;</a></p>
+          <p>Version améliorée de l'utilitaire 3D Print avec&nbsp;: orientation personnalisée, conversion d'unité, automatisation du nommage des fichiers STL&#8230; <a href="https://apps.autodesk.com/FUSION/fr/Detail/Index?id=2942207745179825936&appLang=en&os=Win64" target="_blank">En savoir plus&#8230;</a></p>
         </div>
         <div class="three-col">
-          <a href=""><img class="services-small" src="/assets/images/3DPrintPro.png" alt="3D Print Pro"/></a>
+          <a href="https://apps.autodesk.com/FUSION/fr/Detail/Index?id=1137979603197380741&os=Win64&appLang=en" target="_blank"><img class="services-small" src="/assets/images/3DPrintPro.png" alt="3D Print Pro"/></a>
           <h3 style="margin-bottom: 0">3D Print<br/>Pro</h3>
-          <p>Comme 3D Print Plus avec&nbsp;: export en un clic, réglages sauvegardés entre sessions, outils pour gérer les fichiers STL&#8230; <a href="">En savoir plus&#8230;</a></p>
+          <p>Comme 3D Print Plus avec&nbsp;: export en un clic, réglages sauvegardés entre sessions, outils pour gérer les fichiers STL&#8230; <a href="https://apps.autodesk.com/FUSION/fr/Detail/Index?id=1137979603197380741&os=Win64&appLang=en" target="_blank">En savoir plus&#8230;</a></p>
         </div>
   </section>
   <section>
         <div class="three-col">
-          <a href=""><img class="services-small" src="/assets/images/idf-fusion-360.png" alt="IDF import"/></a>
+          <a href="https://apps.autodesk.com/FUSION/fr/Detail/Index?id=3201819144576582682&appLang=en&os=Win64" target="_blank"><img class="services-small" src="/assets/images/idf-fusion-360.png" alt="IDF import"/></a>
           <h3 style="margin-bottom: 0">IDF<br/>import</h3>
-          <p>Importation de fichiers IDF générés par les logiciels de CAO électronique. <a href="">En savoir plus&#8230;</a></p>
+          <p>Importation de fichiers IDF générés par les logiciels de CAO électronique. <a href="https://apps.autodesk.com/FUSION/fr/Detail/Index?id=3201819144576582682&appLang=en&os=Win64" target="_blank">En savoir plus&#8230;</a></p>
         </div>
         <div class="three-col">
-          <a href=""><img class="services-small" src="/assets/images/github-fusion-360.png" alt="GitHub to Fusion 360"/></a>
+          <a href="https://apps.autodesk.com/FUSION/fr/Detail/Index?id=789800822168335025&appLang=en&os=Win64" target="_blank"><img class="services-small" src="/assets/images/github-fusion-360.png" alt="GitHub to Fusion 360"/></a>
           <h3 style="margin-bottom: 0">GitHub to<br/>Fusion&nbsp;360</h3>
-          <p>Téléchargement et installation automatique de compléments depuis un dépôt GitHub. <a href="">En savoir plus&#8230;</a></p>
+          <p>Téléchargement et installation automatique de compléments depuis un dépôt GitHub. <a href="https://apps.autodesk.com/FUSION/fr/Detail/Index?id=789800822168335025&appLang=en&os=Win64" target="_blank">En savoir plus&#8230;</a></p>
         </div>
   </section>
   <section>
         <div class="three-col">
-          <a href=""><img class="services-small" src="/assets/images/BasicCalculator.png" alt="Basic calculator"/></a>
+          <a href="https://github.com/JeromeBriot/fusion360-basic-calculator" target="_blank"><img class="services-small" src="/assets/images/BasicCalculator.png" alt="Basic calculator"/></a>
           <h3 style="margin-bottom: 0">Basic<br/>calculator</h3>
-          <p>Affichage d'une calcultrice basique et d'un convertisseur d'unités. <a href="">En savoir plus&#8230;</a></p>
+          <p>Affichage d'une calcultrice basique et d'un convertisseur d'unités. <a href="https://github.com/JeromeBriot/fusion360-basic-calculator" target="_blank">En savoir plus&#8230;</a></p>
         </div>
         <div class="three-col">
-          <a href=""><img class="services-small" src="/assets/images/CheckComputerSpecifications.png" alt="Check computer specifications"/></a>
+          <a href="https://github.com/JeromeBriot/fusion360-check-computer-specifications" target="_blank"><img class="services-small" src="/assets/images/CheckComputerSpecifications.png" alt="Check computer specifications"/></a>
           <h3 style="margin-bottom: 0">Check computer<br/>specifications</h3>
-          <p>Vérification des spécifications de l'ordinateur recommandées par Autodesk pour Fusion&nbsp;360. <a href="">En savoir plus&#8230;</a></p>
+          <p>Vérification des spécifications de l'ordinateur recommandées par Autodesk pour Fusion&nbsp;360. <a href="https://github.com/JeromeBriot/fusion360-check-computer-specifications" target="_blank">En savoir plus&#8230;</a></p>
         </div>
   </section>
   <section>
         <div class="three-col">
-          <a href=""><img class="services-small" src="/assets/images/MemoryUsed.png" alt="Memory Used"/></a>
+          <a href="https://github.com/JeromeBriot/fusion360-memory-used" target="_blank"><img class="services-small" src="/assets/images/MemoryUsed.png" alt="Memory Used"/></a>
           <h3 style="margin-bottom: 0">Memory<br/>used</h3>
-          <p>Affichage de la quantité de mémoire consommée par Fusion&nbsp;360 en temps réel. <a href="">En savoir plus&#8230;</a></p>
+          <p>Affichage de la quantité de mémoire consommée par Fusion&nbsp;360 en temps réel. <a href="https://github.com/JeromeBriot/fusion360-memory-used" target="_blank">En savoir plus&#8230;</a></p>
         </div>
         <div class="three-col">
-          <a href=""><img class="services-small" src="/assets/images/OpenFolders.png" alt="Open Folders"/></a>
+          <a href="https://github.com/JeromeBriot/fusion360-open-folders" target="_blank"><img class="services-small" src="/assets/images/OpenFolders.png" alt="Open Folders"/></a>
           <h3 style="margin-bottom: 0">Open<br/>folders</h3>
-          <p>Ouverture de dossiers dans Windows Explorer ou dans MacOS Finder directement depuis Fusion&nbsp;360. <a href="">En savoir plus&#8230;</a></p>
+          <p>Ouverture de dossiers dans Windows Explorer ou dans MacOS Finder directement depuis Fusion&nbsp;360. <a href="https://github.com/JeromeBriot/fusion360-open-folders" target="_blank">En savoir plus&#8230;</a></p>
         </div>
   </section>
   <!-- <section>
