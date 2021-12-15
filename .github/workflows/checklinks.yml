@@ -18,7 +18,7 @@ jobs:
       - name: Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 3.0
+          ruby-version: 3.0.x
 		  bundler-cache: true # runs 'bundle install' and caches installed gems automatically
       - name: Setup Rubygems, Bundler, jekyll
         run: | 
