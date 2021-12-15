@@ -18,8 +18,10 @@ jobs:
       - name: Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 3.0.x
-		  bundler-cache: true # runs 'bundle install' and caches installed gems automatically
+		  # Due to https://github.com/actions/runner/issues/849, we have to use quotes for '3.0'
+          ruby-version: '3.0'
+		  # runs 'bundle install' and caches installed gems automatically
+		  bundler-cache: true 
       - name: Setup Rubygems, Bundler, jekyll
         run: | 
           gem update --system --no-document
