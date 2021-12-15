@@ -96,7 +96,7 @@ lang: en
         <p>Exchange tube bending data between Fusion 360 and CNC bending machines (XYZ and LRA/YBC). <a href="https://apps.autodesk.com/FUSION/fr/Detail/Index?id=6110768094548413359&os=Win64">More&#8230;</a></p>
       </div>
       <div class="three-col">
-        <a href=""><img class="services-small" src="/assets/images/empty-150x150.png" alt=""/></a>
+        <a href=""><img class="services-small" src="/assets/images/empty-150x150.png" alt="empty"/></a>
         <h3 style="margin-bottom: 0">&nbsp;</h3>
         <p><a href="">&nbsp;</a></p>
       </div>

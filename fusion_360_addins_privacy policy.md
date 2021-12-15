@@ -3,10 +3,11 @@ layout: default
 lang: en
 permalink: /fusion-360/addins-privacy-policy
 title: Fusion
+ref: fusion-360-addins-privacy-policy
 ---
 
 <div style="width: 80%; margin: 30px auto; text-align:center;">
-    <h1>Publisher Privacy Policy for Fusion 360 Apps</h1>
+    <h1>Publisher Privacy Policy<br/>for Fusion 360 Apps</h1>
 </div>
 
 <div style="width: 80%; margin: 30px auto 30px auto;">
@@ -28,7 +29,7 @@ title: Fusion
 
 <div style="width: 80%; margin: 30px auto;">
     <h2>Data Retention Policy</h2>
-    <p>As no data is collected, there is no retention or deletion policy.</p>
+    <p>As no data is collected, there is no retention policy.</p>
 </div>
 
 <div style="width: 80%; margin: 30px auto;">
