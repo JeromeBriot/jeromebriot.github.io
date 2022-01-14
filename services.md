@@ -19,7 +19,7 @@ lang: en
   </div>
   <p>The shape of the perch obliges the birds to present themselves optimally for the detection of the RFID rings crimped on their legs. This shape also prevents several birds from landing at the same time.</p>
   <div class="services">
-    <img class="services" style="max-width: none;" src="/assets/images/openfeeder-perch-03.jpg" alt="Perchoir pour oiseau - Projet Openfeeder"/>
+    <img class="services" style="max-width: none;" src="/assets/images/openfeeder-perch-04.jpg" alt="Perchoir pour oiseau - Projet Openfeeder"/>
   </div>
   <p>32 feeders were deployed in the french Pyrenees between fall and spring. More information on this electronic feeder&nbsp;: <a href="https://econect.cnrs.fr/openfeeder-et-smartnest/" target="_blank">Openfeeder project</a>.</p>
 </div>

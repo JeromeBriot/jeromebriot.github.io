@@ -19,7 +19,7 @@ lang: fr
   </div>
   <p>La forme du perchoir oblige les oiseaux à se présenter de manière optimale pour la détection des bagues RFID serties sur leurs pattes. Cette forme évite également que plusieurs oiseaux ne se posent en même temps.</p>
   <div class="services">
-    <img class="services" style="max-width: none;" src="/assets/images/openfeeder-perch-03.jpg" alt="Perchoir pour oiseau - Projet Openfeeder"/>
+    <img class="services" style="max-width: none;" src="/assets/images/openfeeder-perch-04.jpg" alt="Perchoir pour oiseau - Projet Openfeeder"/>
   </div>
   <p>32 mangeoires ont été déployées dans les Pyrénées françaises entre l'automne et le printemps. Plus d'information sur cette mangeoire intelligente&nbsp;: <a href="https://econect.cnrs.fr/openfeeder-et-smartnest/" target="_blank">projet Openfeeder</a>.</p>
 </div>
