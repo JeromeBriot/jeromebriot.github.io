@@ -5,6 +5,7 @@ title:  "Post 1"
 permalink: /blog/:categories/:year/:month/:day/:title/
 ref: post0001
 excerpt_separator: <!--more-->
+tags: en_testA en_testB
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a tincidunt mi. Phasellus quam sem, tincidunt vel neque in, interdum laoreet ipsum. Aliquam ut justo non mi sodales elementum. Sed tempus leo id facilisis pulvinar.<!--more--> Quisque condimentum pharetra turpis et gravida. Ut a lorem maximus, suscipit erat sit amet, interdum enim. Donec urna lorem, faucibus sed commodo vitae, tempus luctus lectus. Phasellus hendrerit velit arcu, id sagittis est ullamcorper nec. Quisque sem nibh, semper non porttitor vitae, tincidunt vitae augue. Integer lacinia sit amet enim et viverra. Vestibulum id luctus augue. Nulla cursus est ex, quis molestie urna lobortis non. Phasellus interdum ex eget vulputate dignissim. Nulla sit amet metus at sem sodales suscipit non ut ipsum. Aliquam consectetur, lectus sed mattis finibus, erat nunc sodales sem, id maximus felis nibh ut velit.

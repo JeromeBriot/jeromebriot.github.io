@@ -7,9 +7,21 @@ layout: default
     <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
     <p class="post-meta">
       <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        {{ page.date | date: date_format }}
+        <!-- {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%} -->
+        <!-- {{ page.date | date: date_format }} -->
+        {% include date.html date=page.date %}
       </time>
+      <ul class="post-meta-category">
+        {% if page.lang == "en" %}
+            {% assign blog_url_prefix = "/blog/" %}
+        {% else %}
+            {% assign blog_url_prefix = "/fr/blog/" %}
+        {% endif %}
+        {% for tag in page.tags %}
+        {% assign tag_name = tag | split: "_" %}
+        <li class="post-meta-tag"><a href="{{ tag_name[1] | prepend: blog_url_prefix | relative_url }}">{{tag_name[1]}}</a></li>
+        {% endfor %}
+      </ul>
       {%- if page.author -%}
         • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
       {%- endif -%}</p>

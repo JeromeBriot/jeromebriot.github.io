@@ -4,33 +4,9 @@ layout: default
 <article class="post">
   {% if site.posts.size > 0 %}
   <div class="post-content">
-    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
-    <ul class="post-list">
-    {% if page.lang == "en" %}
-      {% assign posts=site.posts | where:"lang", "en" %}
-    {% else %}
-      {% assign posts=site.posts | where:"lang", "fr" %}
-    {% endif %}
-    {% for post in posts %}
-    <li>
-    <h3>
-      <a class="post-link" href="{{ post.url | relative_url }}">
-      {{ post.title | escape }}
-      </a>
-    </h3>
-    {% if site.show_excerpts %}
-      {{ post.excerpt }}
-    {% endif %}
-    {% assign date_format = site.minima.date_format | default: "%b %d, %Y" %}
-    <span class="post-meta">{% include date.html date=post.date %}</span>
-    </li>
-    {% endfor %}
-    </ul>
-    {% if page.lang == "en" %}
-      <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-    {% else %}
-      <p class="rss-subscribe">Abonnez-vous <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-    {% endif %}
+    {% include tag_cloud.html %}
+    {% include last_posts.html %}
+    {% include subscribe.html %}
   </div>
   {% endif %}
 </article>

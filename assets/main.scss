@@ -70,10 +70,46 @@ header::after {
   clear: both;
 }
 
+.header-wrapper {
+  border-bottom: 2px solid var(--post-list-color); padding-top: 20px;
+  padding-top: 0;
+}
+
 .post-list-heading {
   text-align: center;
   background-color: var(--post-list-color);
   border-radius: 10px;
+}
+
+.post-link-title {
+  margin-bottom: 0;
+}
+
+.post-meta-category {
+  list-style: none;
+  margin-left: 0;
+}
+
+.post-meta-date {
+  font-size: $small-font-size;
+  color: $grey-color;
+}
+
+.post-meta-tag {
+  font-size: $small-font-size;
+  //color: var(--text-color);
+
+  display: inline;;
+  padding: 0 0.25rem;
+  text-decoration: none;
+  position: relative;
+  background: var(--link-color);
+  //background: #E8AD23;
+  border-radius: 5px;
+}
+
+.post-meta-tag a {
+  color: #E8AD23;
 }
 
 /**
@@ -166,10 +202,8 @@ img.avatar-big {
 	border-radius: 50%;
 	max-width: 250px;
 	padding-top: 0px;
-  // padding-right: 30px;
 	margin-right: 25px;
-  margin-top: 0;
-  // margin-bottom: 25px;
+  margin-top: 5px;
 }
 
 section {
@@ -178,14 +212,13 @@ section {
 div.three-col {
   text-align: center;
   flex-grow: 1;
-  margin: 0 10px;
+  margin: 10px;
   width: 200px;
 }
 
 div.four-col {
   text-align: center;
   flex-grow: 1;
-  // margin-left: 20px;
   margin: 0 auto;
   width: 200px;
 }
@@ -343,3 +376,39 @@ hr.projects  {
 	border:0;
 	border:1px solid #E8AD00;
 }
+
+// https://alvaromontoro.com/blog/67945/create-a-tag-cloud-with-html-and-css
+ul.cloud {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  line-height: 2.5rem;
+}
+
+ul.cloud a[data-weight="1"] { --size: 1; }
+ul.cloud a[data-weight="2"] { --size: 2; }
+ul.cloud a[data-weight="3"] { --size: 3; }
+ul.cloud a[data-weight="4"] { --size: 4; }
+ul.cloud a[data-weight="5"] { --size: 5; }
+ul.cloud a[data-weight="6"] { --size: 6; }
+ul.cloud a[data-weight="7"] { --size: 7; }
+ul.cloud a[data-weight="8"] { --size: 8; }
+ul.cloud a[data-weight="9"] { --size: 9; }
+
+ul.cloud a {
+  color: #E8AD00;
+  display: block;
+  --size: 4;
+  font-size: calc(var(--size) * 0.25rem + 0.5rem);
+  opacity: calc((15 - (9 - var(--size))) / 15);
+  padding: 0.125rem 0.25rem;
+  text-decoration: none;
+  position: relative;
+}
+
+ul.cloud li:nth-child(2n+1) a { --color: #181; }
+ul.cloud li:nth-child(3n+1) a { --color: #33a; }
+ul.cloud li:nth-child(4n+1) a { --color: #c38; }

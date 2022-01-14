@@ -3,5 +3,5 @@ layout: home
 lang: fr
 permalink: /fr/
 ref: index
-list_title: Articles les plus récents
+list_title: Billets les plus récents
 ---

@@ -44,7 +44,12 @@ linkedin_username: jeromebriot
 google_analytics: UA-117615064-1
 google-site-verification: 8eb-4roeGbgDgY82G04s_nFpm4hDu83Pk4UiorL8A-g
 
+# Blog parameters
 show_excerpts: true # set to true to show excerpts on the homepage
+num_last_posts: 2
+blog_url_prefix:
+  en: "/blog/"
+  fr: "/fr/blog/"
 
 defaults:
   -
@@ -62,14 +67,14 @@ minima:
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
 header_pages:
+ - about.md
+ - apropos.md
 #  - blog.md
 #  - blog_fr.md
  - services.md
  - services_fr.md
  - contact.md
  - contact_fr.md
- - about.md
- - apropos.md
 
 # Build settings
 markdown: kramdown

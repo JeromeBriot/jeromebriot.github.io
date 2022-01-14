@@ -1,0 +1,21 @@
+{% if page.lang == "en" %}
+  <h2 class="post-list-heading">{{ page.cat_title | default: "Categories" }}</h2>
+{% else %}
+  <h2 class="post-list-heading">{{ page.cat_title | default: "Catégories" }}</h2>
+{% endif %}
+<!-- https://alvaromontoro.com/blog/67945/create-a-tag-cloud-with-html-and-css -->
+<ul class="cloud" role="navigation" aria-label="Webdev tag cloud">
+  {% assign total_tags = site.tags.size | divided_by: 2.0 %}
+  {% if page.lang == "en" %}
+    {% assign blog_url_prefix = "/blog/" %}
+  {% else %}
+    {% assign blog_url_prefix = "/fr/blog/" %}
+  {% endif %}
+  {% for tag in site.tags %}
+    {% assign tag_name = tag[0] | split: "_" %}
+    {% if tag_name[0] == page.lang %}
+      {% assign size = tag[1].size | divided_by: total_tags | times: 9 | ceil%}
+      <li><a data-weight="{{size}}" href="{{ tag_name[1] | prepend: blog_url_prefix }}">{{ tag_name[1] }}</a></li>
+      {% endif %}
+  {% endfor %}
+</ul>

@@ -43,7 +43,7 @@ lang: en
 </div>
 </div>
 <h2 class="post-list-heading" id="microcontrolers">Microcontrollers programming</h2>
-<p class="services">You look for someone to programm a microcontroller, or to upgrade an existing code. I code in C language on Microchip PIC microcontrollers (PIC16, PIC18 and PIC24).</p>
+<p class="services">You look for someone to programm a microcontroller, or to upgrade an existing code. I code in C language on Microchip PIC microcontrollers (PIC16, PIC18 and PIC24)and on Arduino.</p>
 <div class="service-example">
   <div class="service-example-title">
     <h3><span  class="service-example-title">Openfeeder firmware</span></h3>

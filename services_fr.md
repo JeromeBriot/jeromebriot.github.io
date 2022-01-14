@@ -43,7 +43,7 @@ lang: fr
   </div>
 </div>
 <h2 class="post-list-heading" id="microcontroleurs">Programmation de microcontr&ocirc;leurs</h2>
-<p class="services">Vous recherchez une compétence pour programmer un microcontrôleur, ou pour améliorer un code source existant. Je programme en language C sur microcontr&ocirc;leurs PIC de Microchip (PIC16, PIC18 et PIC24).</p>
+<p class="services">Vous recherchez une compétence pour programmer un microcontrôleur, ou pour améliorer un code source existant. Je programme en language C sur microcontr&ocirc;leurs PIC de Microchip (PIC16, PIC18 et PIC24) et sur Arduino.</p>
 <div class="service-example">
   <div class="service-example-title">
     <h3><span  class="service-example-title">Firmware de l'Openfeeder</span></h3>
@@ -88,6 +88,18 @@ lang: fr
           <h3 style="margin-bottom: 0">GitHub to<br/>Fusion&nbsp;360</h3>
           <p>Téléchargement et installation automatique de compléments depuis un dépôt GitHub. <a href="https://apps.autodesk.com/FUSION/fr/Detail/Index?id=789800822168335025&appLang=en&os=Win64" target="_blank">En savoir plus&#8230;</a></p>
         </div>
+  </section>
+    <section>
+      <div class="three-col">
+        <a href=""><img class="services-small" src="/assets/images/TubeBendingDataExchanger.png" alt="Tube Bending Data Exchanger"/></a>
+        <h3 style="margin-bottom: 0">Tube Bending<br/>Data Exchanger</h3>
+        <p>&Eacute;change de données entre Fusion 360 et les machines CNC de pliage de tube (XYZ et LRA/YBC). <a href="https://apps.autodesk.com/FUSION/fr/Detail/Index?id=6110768094548413359&os=Win64">En savoir plus&#8230;</a></p>
+      </div>
+      <div class="three-col">
+        <a href=""><img class="services-small" src="/assets/images/empty-150x150.png" alt="empty"/></a>
+        <h3 style="margin-bottom: 0">&nbsp;</h3>
+        <p><a href="">&nbsp;</a></p>
+      </div>
   </section>
   <section>
         <div class="three-col">
