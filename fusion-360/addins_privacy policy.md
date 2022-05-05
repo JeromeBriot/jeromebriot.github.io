@@ -18,6 +18,7 @@ ref: fusion-360-addins-privacy-policy
         <li>3D Print Pro</li>
         <li>IDF import</li>
         <li>Install scripts or addins from GitHub</li>
+		<li>Slice Data Export</li>
         <li>Tube Bending Data Exchanger</li>
     </ul>
 </div>
