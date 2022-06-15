@@ -1,0 +1,1617 @@
+[
+  {
+    "name": "Axon",
+    "version": "3",
+    "defaultPath": "C:\\Program Files (x86)\\Bits from Bytes\\Axon 3",
+    "defaultExe": "Axon.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/Axon",
+    "arguments": [
+      "%filename%"
+    ]
+  },
+  {
+    "name": "BCN3D Cura",
+    "version": "3.4",
+    "defaultPath": "C:\\Program Files\\BCN3D Cura 3.4",
+    "defaultExe": "BCN3D_Cura.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/BCN3DCura",
+    "arguments": [
+      "%filename%"
+    ]
+  },
+  {
+    "name": "BCN3D Cura",
+    "version": "3.3",
+    "defaultPath": "C:\\Program Files\\BCN3D Cura 3.3",
+    "defaultExe": "BCN3D_Cura.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/BCN3DCura",
+    "arguments": [
+      "%filename%"
+    ]
+  },
+  {
+    "name": "BCN3D Cura",
+    "version": "3.2",
+    "defaultPath": "C:\\Program Files\\BCN3D Cura 3.2",
+    "defaultExe": "BCN3D_Cura.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/BCN3DCura",
+    "arguments": [
+      "%filename%"
+    ]
+  },
+  {
+    "name": "BCN3D Cura",
+    "version": "3.1",
+    "defaultPath": "C:\\Program Files\\BCN3D Cura 3.1",
+    "defaultExe": "BCN3D_Cura.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/BCN3DCura",
+    "arguments": [
+      "%filename%"
+    ]
+  },
+  {
+    "name": "BCN3D Cura",
+    "version": "3.0.0",
+    "defaultPath": "C:\\Program Files\\BCN3D Cura 3.0.0",
+    "defaultExe": "BCN3D_Cura.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/BCN3DCura",
+    "arguments": [
+      "%filename%"
+    ]
+  },
+  {
+    "name": "BCN3D Cura",
+    "version": "2.1.5",
+    "defaultPath": "C:\\Program Files\\BCN3D Cura 2.1.5",
+    "defaultExe": "BCN3D_Cura.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/BCN3DCura",
+    "arguments": [
+      "%filename%"
+    ]
+  },
+  {
+    "name": "BCN3D Cura",
+    "version": "2.1.4",
+    "defaultPath": "C:\\Program Files\\BCN3D Cura 2.1.4",
+    "defaultExe": "BCN3D_Cura.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/BCN3DCura",
+    "arguments": [
+      "%filename%"
+    ]
+  },
+  {
+    "name": "BCN3D Cura",
+    "version": "2.1.3",
+    "defaultPath": "C:\\Program Files\\BCN3D Cura 2.1.3",
+    "defaultExe": "BCN3D_Cura.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/BCN3DCura",
+    "arguments": [
+      "%filename%"
+    ]
+  },
+  {
+    "name": "BCN3D Cura",
+    "version": "2.1.2",
+    "defaultPath": "C:\\Program Files\\BCN3D Cura 2.1.2",
+    "defaultExe": "BCN3D_Cura.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/BCN3DCura",
+    "arguments": [
+      "%filename%"
+    ]
+  },
+  {
+    "name": "BCN3D Cura",
+    "version": "2.1.1",
+    "defaultPath": "C:\\Program Files\\BCN3D Cura 2.1.1",
+    "defaultExe": "BCN3D_Cura.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/BCN3DCura",
+    "arguments": [
+      "%filename%"
+    ]
+  },
+  {
+    "name": "BCN3D Cura",
+    "version": "2.1",
+    "defaultPath": "C:\\Program Files\\BCN3D Cura 2.1",
+    "defaultExe": "BCN3D_Cura.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/BCN3DCura",
+    "arguments": [
+      "%filename%"
+    ]
+  },
+  {
+    "name": "BCN3D Cura",
+    "version": "2.0.2",
+    "defaultPath": "C:\\Program Files\\BCN3D Cura 2.0.2",
+    "defaultExe": "BCN3D_Cura.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/BCN3DCura",
+    "arguments": [
+      "%filename%"
+    ]
+  },
+  {
+    "name": "BCN3D Stratos",
+    "version": "1.5.0",
+    "defaultPath": "C:\\Program Files\\BCN3D Stratos 1.5.0",
+    "defaultExe": "Cura.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/BCN3DStratos",
+    "arguments": [
+      "%filename%"
+    ]
+  },
+  {
+    "name": "BCN3D Stratos",
+    "version": "1.4.0",
+    "defaultPath": "C:\\Program Files\\BCN3D Stratos 1.4.0",
+    "defaultExe": "Cura.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/BCN3DStratos",
+    "arguments": [
+      "%filename%"
+    ]
+  },
+  {
+    "name": "BCN3D Stratos",
+    "version": "1.3.0",
+    "defaultPath": "C:\\Program Files\\BCN3D Stratos 1.3.0",
+    "defaultExe": "Cura.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/BCN3DStratos",
+    "arguments": [
+      "%filename%"
+    ]
+  },
+  {
+    "name": "BCN3D Stratos",
+    "version": "1.2.2",
+    "defaultPath": "C:\\Program Files\\BCN3D Stratos 1.2.2",
+    "defaultExe": "Cura.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/BCN3DStratos",
+    "arguments": [
+      "%filename%"
+    ]
+  },
+  {
+    "name": "BCN3D Stratos",
+    "version": "1.1.0",
+    "defaultPath": "C:\\Program Files\\BCN3D Stratos 1.1.0",
+    "defaultExe": "Cura.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/BCN3DStratos",
+    "arguments": [
+      "%filename%"
+    ]
+  },
+  {
+    "name": "BCN3D Stratos",
+    "version": "1.0.0",
+    "defaultPath": "C:\\Program Files\\BCN3D Stratos 1.0.0",
+    "defaultExe": "Cura.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/BCN3DStratos",
+    "arguments": [
+      "%filename%"
+    ]
+  },
+  {
+    "name": "Blender",
+    "version": "3.1",
+    "defaultPath": "C:\\Program Files\\Blender Foundation\\Blender 3.1",
+    "defaultExe": "blender.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/Blender",
+    "arguments": [
+      "%filename%"
+    ]
+  },
+  {
+    "name": "Blender",
+    "version": "3.0",
+    "defaultPath": "C:\\Program Files\\Blender Foundation\\Blender 3.0",
+    "defaultExe": "blender.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/Blender",
+    "arguments": [
+      "%filename%"
+    ]
+  },
+  {
+    "name": "Blender",
+    "version": "2.93",
+    "defaultPath": "C:\\Program Files\\Blender Foundation\\Blender 2.93",
+    "defaultExe": "blender.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/Blender",
+    "arguments": [
+      "%filename%"
+    ]
+  },
+  {
+    "name": "Blender",
+    "version": "2.92",
+    "defaultPath": "C:\\Program Files\\Blender Foundation\\Blender 2.92",
+    "defaultExe": "blender.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/Blender",
+    "arguments": [
+      "%filename%"
+    ]
+  },
+  {
+    "name": "Blender",
+    "version": "2.90",
+    "defaultPath": "C:\\Program Files\\Blender Foundation\\Blender 2.90",
+    "defaultExe": "blender.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/Blender",
+    "arguments": [
+      "%filename%"
+    ]
+  },
+  {
+    "name": "Blender",
+    "version": "2.83",
+    "defaultPath": "C:\\Program Files\\Blender Foundation\\Blender 2.83",
+    "defaultExe": "blender.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/Blender",
+    "arguments": [
+      "%filename%"
+    ]
+  },
+  {
+    "name": "Blender",
+    "version": "2.82",
+    "defaultPath": "C:\\Program Files\\Blender Foundation\\Blender 2.82",
+    "defaultExe": "blender.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/Blender",
+    "arguments": [
+      "%filename%"
+    ]
+  },
+  {
+    "name": "Blender",
+    "version": "",
+    "defaultPath": "C:\\Program Files\\Blender Foundation\\Blender",
+    "defaultExe": "blender.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/Blender",
+    "arguments": [
+      "%filename%"
+    ]
+  },
+  {
+    "name": "ChiTuBox",
+    "version": "1.9.3",
+    "defaultPath": "C:\\Program Files\\CHITUBOX V1.9.3",
+    "defaultExe": "CHITUBOX.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/ChiTuBox",
+    "arguments": [
+      "%filename%"
+    ]
+  },
+  {
+    "name": "ChiTuBox",
+    "version": "1.9.3",
+    "defaultPath": "C:\\Program Files\\CHITUBOX  V1.9.3",
+    "defaultExe": "CHITUBOX.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/ChiTuBox",
+    "arguments": [
+      "%filename%"
+    ]
+  },
+  {
+    "name": "ChiTuBox",
+    "version": "1.9.2",
+    "defaultPath": "C:\\Program Files\\CHITUBOX V1.9.2",
+    "defaultExe": "CHITUBOX.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/ChiTuBox",
+    "arguments": [
+      "%filename%"
+    ]
+  },
+  {
+    "name": "ChiTuBox",
+    "version": "1.9.2",
+    "defaultPath": "C:\\Program Files\\CHITUBOX  V1.9.2",
+    "defaultExe": "CHITUBOX.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/ChiTuBox",
+    "arguments": [
+      "%filename%"
+    ]
+  },
+  {
+    "name": "ChiTuBox",
+    "version": "1.9.1",
+    "defaultPath": "C:\\Program Files\\ChiTuBox64 V1.9.1",
+    "defaultExe": "ChiTuBox.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/ChiTuBox",
+    "arguments": [
+      "%filename%"
+    ]
+  },
+  {
+    "name": "ChiTuBox",
+    "version": "1.9.0",
+    "defaultPath": "C:\\Program Files\\ChiTuBox64 1.9.0",
+    "defaultExe": "ChiTuBox.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/ChiTuBox",
+    "arguments": [
+      "%filename%"
+    ]
+  },
+  {
+    "name": "ChiTuBox",
+    "version": "1.8.1",
+    "defaultPath": "C:\\Program Files\\ChiTuBox64 1.8.1",
+    "defaultExe": "ChiTuBox.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/ChiTuBox",
+    "arguments": [
+      "%filename%"
+    ]
+  },
+  {
+    "name": "ChiTuBox",
+    "version": "1.7.0",
+    "defaultPath": "C:\\Program Files\\ChiTuBox64 1.7.0",
+    "defaultExe": "ChiTuBox.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/ChiTuBox",
+    "arguments": [
+      "%filename%"
+    ]
+  },
+  {
+    "name": "ChiTuBox",
+    "version": "1.6.5",
+    "defaultPath": "C:\\Program Files\\ChiTuBox64 1.6.5",
+    "defaultExe": "ChiTuBox.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/ChiTuBox",
+    "arguments": [
+      "%filename%"
+    ]
+  },
+  {
+    "name": "ChiTuBox",
+    "version": "1.6.4",
+    "defaultPath": "C:\\Program Files\\ChiTuBox64 1.6.4",
+    "defaultExe": "ChiTuBox.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/ChiTuBox",
+    "arguments": [
+      "%filename%"
+    ]
+  },
+  {
+    "name": "ChiTuBox",
+    "version": "1.6.3",
+    "defaultPath": "C:\\Program Files\\ChiTuBox64 1.6.3",
+    "defaultExe": "ChiTuBox.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/ChiTuBox",
+    "arguments": [
+      "%filename%"
+    ]
+  },
+  {
+    "name": "ChiTuBox",
+    "version": "1.6.2",
+    "defaultPath": "C:\\Program Files\\ChiTuBox64 1.6.2",
+    "defaultExe": "ChiTuBox.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/ChiTuBox",
+    "arguments": [
+      "%filename%"
+    ]
+  },
+  {
+    "name": "ChiTuBox",
+    "version": "1.6.1",
+    "defaultPath": "C:\\Program Files\\ChiTuBox64 1.6.1",
+    "defaultExe": "ChiTuBox.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/ChiTuBox",
+    "arguments": [
+      "%filename%"
+    ]
+  },
+  {
+    "name": "ChiTuBox",
+    "version": "1.5",
+    "defaultPath": "C:\\Program Files\\ChiTuBox64 1.5",
+    "defaultExe": "ChiTuBox.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/ChiTuBox",
+    "arguments": [
+      "%filename%"
+    ]
+  },
+  {
+    "name": "ChiTuBox",
+    "version": "1.4",
+    "defaultPath": "C:\\Program Files\\ChiTuBox64 1.4",
+    "defaultExe": "ChiTuBox.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/ChiTuBox",
+    "arguments": [
+      "%filename%"
+    ]
+  },
+  {
+    "name": "ChiTuBox",
+    "version": "1.3",
+    "defaultPath": "C:\\Program Files\\ChiTuBox64 1.3",
+    "defaultExe": "ChiTuBox.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/ChiTuBox",
+    "arguments": [
+      "%filename%"
+    ]
+  },
+  {
+    "name": "ChiTuBox",
+    "version": "1.2",
+    "defaultPath": "C:\\Program Files\\ChiTuBox64 1.2",
+    "defaultExe": "ChiTuBox.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/ChiTuBox",
+    "arguments": [
+      "%filename%"
+    ]
+  },
+  {
+    "name": "ChiTuBox",
+    "version": "1.1",
+    "defaultPath": "C:\\Program Files\\ChiTuBox64 1.1",
+    "defaultExe": "ChiTuBox.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/ChiTuBox",
+    "arguments": [
+      "%filename%"
+    ]
+  },
+  {
+    "name": "ChiTuBox Pro",
+    "version": "1.2.0",
+    "defaultPath": "C:\\Program Files\\ChiTuBoxPro V1.2.0",
+    "defaultExe": "CHITUBOXPro.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/ChiTuBoxPro",
+    "arguments": [
+      "%filename%"
+    ]
+  },
+  {
+    "name": "ChiTuBox Pro",
+    "version": "1.1.0",
+    "defaultPath": "C:\\Program Files\\ChiTuBoxPro V1.1.0",
+    "defaultExe": "CHITUBOXPro.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/ChiTuBoxPro",
+    "arguments": [
+      "%filename%"
+    ]
+  },
+  {
+    "name": "ChiTuBox Pro",
+    "version": "1.0.1",
+    "defaultPath": "C:\\Program Files\\ChiTuBoxPro V1.0.1",
+    "defaultExe": "CHITUBOXPro.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/ChiTuBoxPro",
+    "arguments": [
+      "%filename%"
+    ]
+  },
+  {
+    "name": "ChiTuBox Pro",
+    "version": "1.0.0",
+    "defaultPath": "C:\\Program Files\\ChiTuBoxPro V1.0.0",
+    "defaultExe": "CHITUBOXPro.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/ChiTuBoxPro",
+    "arguments": [
+      "%filename%"
+    ]
+  },
+  {
+    "name": "CraftWare",
+    "version": "",
+    "defaultPath": "C:\\Program Files\\CraftUnique\\CraftWare",
+    "defaultExe": "CraftWare.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/CraftWare",
+    "arguments": [
+      "%filename%"
+    ]
+  },
+  {
+    "name": "Cube Print",
+    "version": "",
+    "defaultPath": "C:\\Program Files (x86)\\3D Systems\\Cube Print",
+    "defaultExe": "Cube Print.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/CubePrint",
+    "arguments": [
+      "%filename%"
+    ]
+  },
+  {
+    "name": "CubePro",
+    "version": "",
+    "defaultPath": "C:\\Program Files (x86)\\3D Systems\\CubePro",
+    "defaultExe": "CubePro.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/CubePro",
+    "arguments": [
+      "%filename%"
+    ]
+  },
+  {
+    "name": "CubeX",
+    "version": "",
+    "defaultPath": "C:\\Program Files (x86)\\3D Systems\\CubeX",
+    "defaultExe": "CubeX.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/CubeX",
+    "arguments": [
+      "%filename%"
+    ]
+  },
+  {
+    "name": "Cura",
+    "version": "5.1.0",
+    "defaultPath": "C:\\Program Files\\Ultimaker Cura 5.1.0",
+    "defaultExe": "Ultimaker-Cura.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/Cura5",
+    "arguments": [
+      "%filename%",
+      "--single-instance"
+    ]
+  },
+  {
+    "name": "Cura",
+    "version": "5.0.1",
+    "defaultPath": "C:\\Program Files\\Ultimaker Cura 5.0.1",
+    "defaultExe": "Ultimaker-Cura.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/Cura5",
+    "arguments": [
+      "%filename%",
+      "--single-instance"
+    ]
+  },
+  {
+    "name": "Cura",
+    "version": "5.0.0",
+    "defaultPath": "C:\\Program Files\\Ultimaker Cura 5.0.0",
+    "defaultExe": "Ultimaker-Cura.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/Cura5",
+    "arguments": [
+      "%filename%",
+      "--single-instance"
+    ]
+  },
+  {
+    "name": "Cura",
+    "version": "4.9.1",
+    "defaultPath": "C:\\Program Files\\Ultimaker Cura 4.9.1",
+    "defaultExe": "Cura.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/Cura",
+    "arguments": [
+      "%filename%",
+      "--single-instance"
+    ]
+  },
+  {
+    "name": "Cura",
+    "version": "4.9.0",
+    "defaultPath": "C:\\Program Files\\Ultimaker Cura 4.9.0",
+    "defaultExe": "Cura.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/Cura",
+    "arguments": [
+      "%filename%",
+      "--single-instance"
+    ]
+  },
+  {
+    "name": "Cura",
+    "version": "4.8.0",
+    "defaultPath": "C:\\Program Files\\Ultimaker Cura 4.8.0",
+    "defaultExe": "Cura.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/Cura",
+    "arguments": [
+      "%filename%",
+      "--single-instance"
+    ]
+  },
+  {
+    "name": "Cura",
+    "version": "4.7",
+    "defaultPath": "C:\\Program Files\\Ultimaker Cura 4.7",
+    "defaultExe": "Cura.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/Cura",
+    "arguments": [
+      "%filename%",
+      "--single-instance"
+    ]
+  },
+  {
+    "name": "Cura",
+    "version": "4.6",
+    "defaultPath": "C:\\Program Files\\Ultimaker Cura 4.6",
+    "defaultExe": "Cura.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/Cura",
+    "arguments": [
+      "%filename%",
+      "--single-instance"
+    ]
+  },
+  {
+    "name": "Cura",
+    "version": "4.5",
+    "defaultPath": "C:\\Program Files\\Ultimaker Cura 4.5",
+    "defaultExe": "Cura.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/Cura",
+    "arguments": [
+      "%filename%",
+      "--single-instance"
+    ]
+  },
+  {
+    "name": "Cura",
+    "version": "4.4",
+    "defaultPath": "C:\\Program Files\\Ultimaker Cura 4.4",
+    "defaultExe": "Cura.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/Cura",
+    "arguments": [
+      "%filename%",
+      "--single-instance"
+    ]
+  },
+  {
+    "name": "Cura",
+    "version": "4.3",
+    "defaultPath": "C:\\Program Files\\Ultimaker Cura 4.3",
+    "defaultExe": "Cura.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/Cura",
+    "arguments": [
+      "%filename%",
+      "--single-instance"
+    ]
+  },
+  {
+    "name": "Cura",
+    "version": "4.2",
+    "defaultPath": "C:\\Program Files\\Ultimaker Cura 4.2",
+    "defaultExe": "Cura.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/Cura",
+    "arguments": [
+      "%filename%",
+      "--single-instance"
+    ]
+  },
+  {
+    "name": "Cura",
+    "version": "4.14.0",
+    "defaultPath": "C:\\Program Files\\Ultimaker Cura 4.14.0",
+    "defaultExe": "Cura.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/Cura",
+    "arguments": [
+      "%filename%",
+      "--single-instance"
+    ]
+  },
+  {
+    "name": "Cura",
+    "version": "4.13.2",
+    "defaultPath": "C:\\Program Files\\Ultimaker Cura 4.13.2",
+    "defaultExe": "Cura.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/Cura",
+    "arguments": [
+      "%filename%",
+      "--single-instance"
+    ]
+  },
+  {
+    "name": "Cura",
+    "version": "4.13.1",
+    "defaultPath": "C:\\Program Files\\Ultimaker Cura 4.13.1",
+    "defaultExe": "Cura.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/Cura",
+    "arguments": [
+      "%filename%",
+      "--single-instance"
+    ]
+  },
+  {
+    "name": "Cura",
+    "version": "4.13.0",
+    "defaultPath": "C:\\Program Files\\Ultimaker Cura 4.13.0",
+    "defaultExe": "Cura.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/Cura",
+    "arguments": [
+      "%filename%",
+      "--single-instance"
+    ]
+  },
+  {
+    "name": "Cura",
+    "version": "4.12.1",
+    "defaultPath": "C:\\Program Files\\Ultimaker Cura 4.12.1",
+    "defaultExe": "Cura.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/Cura",
+    "arguments": [
+      "%filename%",
+      "--single-instance"
+    ]
+  },
+  {
+    "name": "Cura",
+    "version": "4.12.0",
+    "defaultPath": "C:\\Program Files\\Ultimaker Cura 4.12.0",
+    "defaultExe": "Cura.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/Cura",
+    "arguments": [
+      "%filename%",
+      "--single-instance"
+    ]
+  },
+  {
+    "name": "Cura",
+    "version": "4.11.1",
+    "defaultPath": "C:\\Program Files\\Ultimaker Cura 4.11.1",
+    "defaultExe": "Cura.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/Cura",
+    "arguments": [
+      "%filename%",
+      "--single-instance"
+    ]
+  },
+  {
+    "name": "Cura",
+    "version": "4.11.0",
+    "defaultPath": "C:\\Program Files\\Ultimaker Cura 4.11.0",
+    "defaultExe": "Cura.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/Cura",
+    "arguments": [
+      "%filename%",
+      "--single-instance"
+    ]
+  },
+  {
+    "name": "Cura",
+    "version": "4.10.1",
+    "defaultPath": "C:\\Program Files\\Ultimaker Cura 4.10.1",
+    "defaultExe": "Cura.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/Cura",
+    "arguments": [
+      "%filename%",
+      "--single-instance"
+    ]
+  },
+  {
+    "name": "Cura",
+    "version": "4.10.0",
+    "defaultPath": "C:\\Program Files\\Ultimaker Cura 4.10.0",
+    "defaultExe": "Cura.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/Cura",
+    "arguments": [
+      "%filename%",
+      "--single-instance"
+    ]
+  },
+  {
+    "name": "Cura",
+    "version": "4.1",
+    "defaultPath": "C:\\Program Files\\Ultimaker Cura 4.1",
+    "defaultExe": "Cura.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/Cura",
+    "arguments": [
+      "%filename%",
+      "--single-instance"
+    ]
+  },
+  {
+    "name": "Cura",
+    "version": "4.0",
+    "defaultPath": "C:\\Program Files\\Ultimaker Cura 4.0",
+    "defaultExe": "Cura.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/Cura",
+    "arguments": [
+      "%filename%",
+      "--single-instance"
+    ]
+  },
+  {
+    "name": "Cura",
+    "version": "3.6",
+    "defaultPath": "C:\\Program Files\\Ultimaker Cura 3.6",
+    "defaultExe": "Cura.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/Cura",
+    "arguments": [
+      "%filename%",
+      "--single-instance"
+    ]
+  },
+  {
+    "name": "Cura",
+    "version": "3.5",
+    "defaultPath": "C:\\Program Files\\Ultimaker Cura 3.5",
+    "defaultExe": "Cura.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/Cura",
+    "arguments": [
+      "%filename%",
+      "--single-instance"
+    ]
+  },
+  {
+    "name": "Cura",
+    "version": "3.4",
+    "defaultPath": "C:\\Program Files\\Ultimaker Cura 3.4",
+    "defaultExe": "Cura.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/Cura",
+    "arguments": [
+      "%filename%",
+      "--single-instance"
+    ]
+  },
+  {
+    "name": "Cura",
+    "version": "3.3",
+    "defaultPath": "C:\\Program Files\\Ultimaker Cura 3.3",
+    "defaultExe": "Cura.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/Cura",
+    "arguments": [
+      "%filename%",
+      "--single-instance"
+    ]
+  },
+  {
+    "name": "Cura",
+    "version": "3.2",
+    "defaultPath": "C:\\Program Files\\Ultimaker Cura 3.2",
+    "defaultExe": "Cura.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/Cura",
+    "arguments": [
+      "%filename%",
+      "--single-instance"
+    ]
+  },
+  {
+    "name": "Cura",
+    "version": "3.1",
+    "defaultPath": "C:\\Program Files\\Ultimaker Cura 3.1",
+    "defaultExe": "Cura.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/Cura",
+    "arguments": [
+      "%filename%",
+      "--single-instance"
+    ]
+  },
+  {
+    "name": "Cura",
+    "version": "3.0",
+    "defaultPath": "C:\\Program Files\\Ultimaker Cura 3.0",
+    "defaultExe": "Cura.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/Cura",
+    "arguments": [
+      "%filename%",
+      "--single-instance"
+    ]
+  },
+  {
+    "name": "Cura",
+    "version": "2.7",
+    "defaultPath": "C:\\Program Files\\Cura 2.7",
+    "defaultExe": "Cura.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/Cura",
+    "arguments": [
+      "%filename%"
+    ]
+  },
+  {
+    "name": "Cura",
+    "version": "2.6",
+    "defaultPath": "C:\\Program Files\\Cura 2.6",
+    "defaultExe": "Cura.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/Cura",
+    "arguments": [
+      "%filename%"
+    ]
+  },
+  {
+    "name": "Cura",
+    "version": "2.5",
+    "defaultPath": "C:\\Program Files\\Cura 2.5",
+    "defaultExe": "Cura.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/Cura",
+    "arguments": [
+      "%filename%"
+    ]
+  },
+  {
+    "name": "Cura",
+    "version": "2.4",
+    "defaultPath": "C:\\Program Files\\Cura 2.4",
+    "defaultExe": "Cura.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/Cura",
+    "arguments": [
+      "%filename%"
+    ]
+  },
+  {
+    "name": "Cura",
+    "version": "2.3",
+    "defaultPath": "C:\\Program Files\\Cura 2.3",
+    "defaultExe": "Cura.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/Cura",
+    "arguments": [
+      "%filename%"
+    ]
+  },
+  {
+    "name": "Cura",
+    "version": "2.2",
+    "defaultPath": "C:\\Program Files\\Cura 2.2",
+    "defaultExe": "Cura.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/Cura",
+    "arguments": [
+      "%filename%"
+    ]
+  },
+  {
+    "name": "Cura",
+    "version": "2.1",
+    "defaultPath": "C:\\Program Files\\Cura 2.1",
+    "defaultExe": "Cura.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/Cura",
+    "arguments": [
+      "%filename%"
+    ]
+  },
+  {
+    "name": "Cura for Volumic",
+    "version": "3.4",
+    "defaultPath": "C:\\Program Files (x86)\\Cura 3.4 for Volumic",
+    "defaultExe": "Cura.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/CuraVolumic",
+    "arguments": [
+      "%filename%"
+    ]
+  },
+  {
+    "name": "Cura LulzBot",
+    "version": "3.6",
+    "defaultPath": "C:\\Program Files (x86)\\cura-lulzbot 3.6",
+    "defaultExe": "cura-lulzbot.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/CuraLulzBot",
+    "arguments": [
+      "%filename%"
+    ]
+  },
+  {
+    "name": "Cura LulzBot",
+    "version": "3.2",
+    "defaultPath": "C:\\Program Files (x86)\\cura-lulzbot 3.2",
+    "defaultExe": "cura-lulzbot.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/CuraLulzBot",
+    "arguments": [
+      "%filename%"
+    ]
+  },
+  {
+    "name": "Cura LulzBot",
+    "version": "2.6",
+    "defaultPath": "C:\\Program Files (x86)\\cura-lulzbot 2.6",
+    "defaultExe": "cura-lulzbot.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/CuraLulzBot",
+    "arguments": [
+      "%filename%"
+    ]
+  },
+  {
+    "name": "Custom",
+    "version": "",
+    "defaultPath": "",
+    "defaultExe": "",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources",
+    "arguments": [
+      "%filename%"
+    ]
+  },
+  {
+    "name": "Dremel DigiLab 3D Slicer",
+    "version": "",
+    "defaultPath": "C:\\Program Files\\Dremel DigiLab 3D Slicer",
+    "defaultExe": "Dremel3DSlicer.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/Dremel",
+    "arguments": [
+      "%filename%"
+    ]
+  },
+  {
+    "name": "IceSL-forge",
+    "version": "",
+    "defaultPath": "C:\\Program Files\\INRIA\\IceSL\\bin",
+    "defaultExe": "IceSL-forge.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/IceSL",
+    "arguments": [
+      "%filename%"
+    ]
+  },
+  {
+    "name": "IceSL-slicer",
+    "version": "",
+    "defaultPath": "C:\\Program Files\\INRIA\\IceSL\\bin",
+    "defaultExe": "IceSL-slicer.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/IceSL",
+    "arguments": [
+      "%filename%"
+    ]
+  },
+  {
+    "name": "ideaMaker",
+    "version": "",
+    "defaultPath": "C:\\Program Files\\Raise3D\\ideaMaker",
+    "defaultExe": "ideaMaker.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/IdeaMaker",
+    "arguments": [
+      "%filename%"
+    ]
+  },
+  {
+    "name": "KISSlicer",
+    "version": "",
+    "defaultPath": "C:\\Program Files\\KISSlicer",
+    "defaultExe": "KISSlicer64.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/KISSlicer",
+    "arguments": [
+      "%filename%"
+    ]
+  },
+  {
+    "name": "Lychee Slicer",
+    "version": "",
+    "defaultPath": "C:\\Program Files\\LycheeSlicer",
+    "defaultExe": "LycheeSlicer.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/LycheeSlicer",
+    "arguments": [
+      "%filename%"
+    ]
+  },
+  {
+    "name": "MakerBot Print",
+    "version": "",
+    "defaultPath": "C:\\Program Files\\MakerBot\\MakerBotPrint",
+    "defaultExe": "makerbot-print.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/MakerBotPrint",
+    "arguments": [
+      "%filename%"
+    ]
+  },
+  {
+    "name": "MatterControl",
+    "version": "",
+    "defaultPath": "C:\\Program Files (x86)\\MatterControl",
+    "defaultExe": "MatterControl.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/MatterControl",
+    "arguments": [
+      "%filename%"
+    ]
+  },
+  {
+    "name": "MeshLab",
+    "version": "",
+    "defaultPath": "C:\\Program Files\\VCG\\MeshLab",
+    "defaultExe": "meshlab.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/MeshLab",
+    "arguments": [
+      "%filename%"
+    ]
+  },
+  {
+    "name": "Meshmixer",
+    "version": "",
+    "defaultPath": "C:\\Program Files\\Autodesk\\Meshmixer",
+    "defaultExe": "meshmixer.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/Meshmixer",
+    "arguments": [
+      "%filename%"
+    ]
+  },
+  {
+    "name": "PreForm",
+    "version": "",
+    "defaultPath": "C:\\Program Files (x86)\\Formlabs\\PreForm",
+    "defaultExe": "PreForm.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/PreForm",
+    "arguments": [
+      "%filename%"
+    ]
+  },
+  {
+    "name": "PrusaSlicer",
+    "version": "",
+    "defaultPath": "C:\\Program Files\\Prusa3D\\PrusaSlicer",
+    "defaultExe": "prusa-slicer.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/PrusaSlicer",
+    "arguments": [
+      "%filename%"
+    ]
+  },
+  {
+    "name": "Repetier-Host",
+    "version": "",
+    "defaultPath": "C:\\Program Files\\Repetier-Host",
+    "defaultExe": "RepetierHost.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/RepetierHost",
+    "arguments": [
+      "%filename%"
+    ]
+  },
+  {
+    "name": "Simplify3D",
+    "version": "4.1.2",
+    "defaultPath": "C:\\Program Files\\Simplify3D-4.1.2",
+    "defaultExe": "Simplify3D.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/Simplify3D",
+    "arguments": [
+      "%filename%"
+    ]
+  },
+  {
+    "name": "Simplify3D",
+    "version": "4.1.1",
+    "defaultPath": "C:\\Program Files\\Simplify3D-4.1.1",
+    "defaultExe": "Simplify3D.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/Simplify3D",
+    "arguments": [
+      "%filename%"
+    ]
+  },
+  {
+    "name": "Simplify3D",
+    "version": "4.1.0",
+    "defaultPath": "C:\\Program Files\\Simplify3D-4.1.0",
+    "defaultExe": "Simplify3D.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/Simplify3D",
+    "arguments": [
+      "%filename%"
+    ]
+  },
+  {
+    "name": "Simplify3D",
+    "version": "4.0.1",
+    "defaultPath": "C:\\Program Files\\Simplify3D-4.0.1",
+    "defaultExe": "Simplify3D.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/Simplify3D",
+    "arguments": [
+      "%filename%"
+    ]
+  },
+  {
+    "name": "Simplify3D",
+    "version": "4.0.0",
+    "defaultPath": "C:\\Program Files\\Simplify3D-4.0.0",
+    "defaultExe": "Simplify3D.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/Simplify3D",
+    "arguments": [
+      "%filename%"
+    ]
+  },
+  {
+    "name": "Simplify3D",
+    "version": "3.1.1",
+    "defaultPath": "C:\\Program Files\\Simplify3D-3.1.1",
+    "defaultExe": "Simplify3D.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/Simplify3D",
+    "arguments": [
+      "%filename%"
+    ]
+  },
+  {
+    "name": "Simplify3D",
+    "version": "3.1.0",
+    "defaultPath": "C:\\Program Files\\Simplify3D-3.1.0",
+    "defaultExe": "Simplify3D.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/Simplify3D",
+    "arguments": [
+      "%filename%"
+    ]
+  },
+  {
+    "name": "Simplify3D",
+    "version": "3.0.2",
+    "defaultPath": "C:\\Program Files\\Simplify3D-3.0.2",
+    "defaultExe": "Simplify3D.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/Simplify3D",
+    "arguments": [
+      "%filename%"
+    ]
+  },
+  {
+    "name": "Simplify3D",
+    "version": "3.0.1",
+    "defaultPath": "C:\\Program Files\\Simplify3D-3.0.1",
+    "defaultExe": "Simplify3D.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/Simplify3D",
+    "arguments": [
+      "%filename%"
+    ]
+  },
+  {
+    "name": "Simplify3D",
+    "version": "3.0.0",
+    "defaultPath": "C:\\Program Files\\Simplify3D-3.0.0",
+    "defaultExe": "Simplify3D.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/Simplify3D",
+    "arguments": [
+      "%filename%"
+    ]
+  },
+  {
+    "name": "Simplify3D",
+    "version": "2.2.2",
+    "defaultPath": "C:\\Program Files\\Simplify3D-2.2.2",
+    "defaultExe": "Simplify3D.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/Simplify3D",
+    "arguments": [
+      "%filename%"
+    ]
+  },
+  {
+    "name": "Simplify3D",
+    "version": "2.2.1",
+    "defaultPath": "C:\\Program Files\\Simplify3D-2.2.1",
+    "defaultExe": "Simplify3D.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/Simplify3D",
+    "arguments": [
+      "%filename%"
+    ]
+  },
+  {
+    "name": "Simplify3D",
+    "version": "2.2.0",
+    "defaultPath": "C:\\Program Files\\Simplify3D-2.2.0",
+    "defaultExe": "Simplify3D.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/Simplify3D",
+    "arguments": [
+      "%filename%"
+    ]
+  },
+  {
+    "name": "Simplify3D",
+    "version": "2.1.2",
+    "defaultPath": "C:\\Program Files\\Simplify3D-2.1.2",
+    "defaultExe": "Simplify3D.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/Simplify3D",
+    "arguments": [
+      "%filename%"
+    ]
+  },
+  {
+    "name": "Simplify3D",
+    "version": "2.1.1",
+    "defaultPath": "C:\\Program Files\\Simplify3D-2.1.1",
+    "defaultExe": "Simplify3D.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/Simplify3D",
+    "arguments": [
+      "%filename%"
+    ]
+  },
+  {
+    "name": "Simplify3D",
+    "version": "2.1.0",
+    "defaultPath": "C:\\Program Files\\Simplify3D-2.1.0",
+    "defaultExe": "Simplify3D.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/Simplify3D",
+    "arguments": [
+      "%filename%"
+    ]
+  },
+  {
+    "name": "Simplify3D",
+    "version": "2.0.1",
+    "defaultPath": "C:\\Program Files\\Simplify3D-2.0.1",
+    "defaultExe": "Simplify3D.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/Simplify3D",
+    "arguments": [
+      "%filename%"
+    ]
+  },
+  {
+    "name": "Simplify3D",
+    "version": "2.0.0",
+    "defaultPath": "C:\\Program Files\\Simplify3D-2.0.0",
+    "defaultExe": "Simplify3D.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/Simplify3D",
+    "arguments": [
+      "%filename%"
+    ]
+  },
+  {
+    "name": "Slic3r",
+    "version": "1.3.0",
+    "defaultPath": "C:\\Program Files\\Slic3r-1.3.0.64bit",
+    "defaultExe": "Slic3r.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/Slic3r",
+    "arguments": [
+      "%filename%"
+    ]
+  },
+  {
+    "name": "Slicer for Fusion 360",
+    "version": "",
+    "defaultPath": "C:\\Program Files (x86)\\Autodesk\\Slicer for Fusion 360\\bin",
+    "defaultExe": "SlicerforFusion360.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/SlicerforFusion360",
+    "arguments": [
+      "%filename%"
+    ]
+  },
+  {
+    "name": "Voxelizer 2",
+    "version": "",
+    "defaultPath": "C:\\Program Files\\Voxelizer 2",
+    "defaultExe": "voxelizer.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/Voxelizer2",
+    "arguments": [
+      "%filename%"
+    ]
+  },
+  {
+    "name": "XYZprint",
+    "version": "",
+    "defaultPath": "C:\\Program Files\\XYZprint",
+    "defaultExe": "XYZprint.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/XYZprint",
+    "arguments": [
+      "%filename%"
+    ]
+  },
+  {
+    "name": "Z-SUITE",
+    "version": "2",
+    "defaultPath": "C:\\Users\\jerome\\AppData\\Local\\Programs\\Zortrax\\Z-Suite",
+    "defaultExe": "Z-SUITE.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/ZSuite2",
+    "arguments": [
+      "%filename%"
+    ]
+  }
+]
