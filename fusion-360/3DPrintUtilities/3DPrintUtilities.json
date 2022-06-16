@@ -157,6 +157,18 @@
   },
   {
     "name": "BCN3D Stratos",
+    "version": "1.5.1",
+    "defaultPath": "C:\\Program Files\\BCN3D Stratos 1.5.1",
+    "defaultExe": "Cura.exe",
+    "customPath": "",
+    "customExe": "",
+    "resource": "resources/3DprintUtilities/BCN3DStratos",
+    "arguments": [
+      "%filename%"
+    ]
+  },
+  {
+    "name": "BCN3D Stratos",
     "version": "1.5.0",
     "defaultPath": "C:\\Program Files\\BCN3D Stratos 1.5.0",
     "defaultExe": "Cura.exe",
